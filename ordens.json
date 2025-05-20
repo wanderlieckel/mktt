@@ -1,0 +1,247 @@
+[
+    {
+        "item": "Blue Crystal Shard",
+        "total": 120,
+        "executado": 0,
+        "valor": 1426,
+        "fechada": false
+    },
+    {
+        "item": "Green Crystal Shard",
+        "total": 140,
+        "executado": 0,
+        "valor": 1250,
+        "fechada": false
+    },
+    {
+        "item": "Blue Gem",
+        "total": 34,
+        "executado": 0,
+        "valor": 4926,
+        "fechada": true
+    },
+    {
+        "item": "Blue Gem",
+        "total": 35,
+        "executado": 0,
+        "valor": 4927,
+        "fechada": false
+    },
+    {
+        "item": "Lightning Legs",
+        "total": 25,
+        "executado": 0,
+        "valor": 7500,
+        "fechada": false
+    },
+    {
+        "item": "Blue Crystal Splinter",
+        "total": 550,
+        "executado": 0,
+        "valor": 300,
+        "fechada": false
+    },
+    {
+        "item": "Cyan Crystal Fragment",
+        "total": 275,
+        "executado": 0,
+        "valor": 600,
+        "fechada": false
+    },
+    {
+        "item": "Plasma Pearls",
+        "total": 1000,
+        "executado": 0,
+        "valor": 175,
+        "fechada": false
+    },
+    {
+        "item": "Curious Matter",
+        "total": 554,
+        "executado": 0,
+        "valor": 300,
+        "fechada": false
+    },
+    {
+        "item": "Volatile Proto Matter",
+        "total": 562,
+        "executado": 0,
+        "valor": 225,
+        "fechada": false
+    },
+    {
+        "item": "Assassin Dagger",
+        "total": 5,
+        "executado": 0,
+        "valor": 15016,
+        "fechada": false
+    },
+    {
+        "item": "Nightmare Blade",
+        "total": 7,
+        "executado": 0,
+        "valor": 25000,
+        "fechada": false
+    },
+    {
+        "item": "Fish Fin",
+        "total": 562,
+        "executado": 0,
+        "valor": 110,
+        "fechada": false
+    },
+    {
+        "item": "Gold Ingot",
+        "total": 25,
+        "executado": 0,
+        "valor": 4506,
+        "fechada": false
+    },
+    {
+        "item": "Lightning Legs",
+        "total": 13,
+        "executado": 13,
+        "valor": 8900,
+        "fechada": false
+    },
+    {
+        "item": "Lightning Legs",
+        "total": 2,
+        "executado": 2,
+        "valor": 10500,
+        "fechada": false
+    },
+    {
+        "item": "Iron Ore",
+        "total": 373,
+        "executado": 0,
+        "valor": 375,
+        "fechada": false
+    },
+    {
+        "item": "Red Crystal Fragment",
+        "total": 231,
+        "executado": 0,
+        "valor": 600,
+        "fechada": false
+    },
+    {
+        "item": "Violet Crystal Shard",
+        "total": 126,
+        "executado": 0,
+        "valor": 1100,
+        "fechada": false
+    },
+    {
+        "item": "Magma Legs",
+        "total": 21,
+        "executado": 0,
+        "valor": 8250,
+        "fechada": false
+    },
+    {
+        "item": "Lightning Headband",
+        "total": 93,
+        "executado": 0,
+        "valor": 1800,
+        "fechada": false
+    },
+    {
+        "item": "White Pearl",
+        "total": 562,
+        "executado": 0,
+        "valor": 100,
+        "fechada": false
+    },
+    {
+        "item": "Ivory Carving",
+        "total": 562,
+        "executado": 0,
+        "valor": 225,
+        "fechada": false
+    },
+    {
+        "item": "Black Pearl",
+        "total": 562,
+        "executado": 0,
+        "valor": 200,
+        "fechada": false
+    },
+    {
+        "item": "Noble Axe",
+        "total": 20,
+        "executado": 0,
+        "valor": 7250,
+        "fechada": false
+    },
+    {
+        "item": "Silver Brooch",
+        "total": 500,
+        "executado": 0,
+        "valor": 105,
+        "fechada": false
+    },
+    {
+        "item": "War Hammer",
+        "total": 188,
+        "executado": 188,
+        "valor": 1050,
+        "fechada": false
+    },
+    {
+        "item": "War Hammer",
+        "total": 2,
+        "executado": 2,
+        "valor": 1000,
+        "fechada": false
+    },
+    {
+        "item": "War Hammer",
+        "total": 220,
+        "executado": 0,
+        "valor": 900,
+        "fechada": false
+    },
+    {
+        "item": "Glorious Axe",
+        "total": 106,
+        "executado": 0,
+        "valor": 2050,
+        "fechada": false
+    },
+    {
+        "item": "Glorious Axe",
+        "total": 1,
+        "executado": 1,
+        "valor": 2750,
+        "fechada": false
+    },
+    {
+        "item": "Glorious Axe",
+        "total": 7,
+        "executado": 7,
+        "valor": 2800,
+        "fechada": false
+    },
+    {
+        "item": "Onyx Chip",
+        "total": 404,
+        "executado": 0,
+        "valor": 305,
+        "fechada": false
+    },
+    {
+        "item": "Coral Brooch",
+        "total": 245,
+        "executado": 0,
+        "valor": 500,
+        "fechada": false
+    },
+    {
+        "item": "Rainbow Quartz",
+        "total": 346,
+        "executado": 0,
+        "valor": 350,
+        "fechada": false
+    }
+]

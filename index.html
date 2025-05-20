@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Dashboard Market Tibia</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <h1>📊 Dashboard de Transações - Tibia Market</h1>
+
+    <section class="tibiacoin-section">
+        <h2>💰 Valor da Tibia Coin</h2>
+        <label>
+            1 TC =
+            <input type="number" id="tibiaCoinInput" min="0" step="1" />
+            gold
+        </label>
+    </section>
+
+    <section class="form-section">
+        <h2>➕ Criar Ordem de Compra</h2>
+        <form id="formOrdem" autocomplete="off">
+            <label style="position: relative;">Item:
+                <input type="text" id="itemNome" required />
+                <ul id="sugestoes" class="autocomplete-list"></ul>
+            </label>
+
+            <label>Valor Unitário:
+                <input type="number" id="itemValor" step="1" min="0" required />
+            </label>
+
+            <label>Quantidade:
+                <input type="number" id="itemQtd" min="1" required />
+            </label>
+
+            <button type="submit">Criar Ordem</button>
+        </form>
+    </section>
+
+    <section class="table-section">
+        <h2>📋 Ordens de Compra</h2>
+        <table id="ordensTable">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Preço Compra</th>
+                    <th>Preço Venda</th>
+                    <th>Quantidade</th>
+                    <th>Executado</th>
+                    <th>Valor Empenhado</th>
+                    <th>R$ Empenhado</th>
+                    <th>Retorno Obtido</th>
+                    <th>R$ Retorno</th>
+                    <th>Executar</th>
+                    <th>
+                        <button id="toggleFechadas">Esconder</button>
+                    </th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
