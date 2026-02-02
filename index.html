@@ -3,68 +3,27 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Dashboard Market Tibia</title>
+    <title>Dashboard Entregáveis rubinot</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-flags.min.css?1740838745" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-socials.min.css?1740838745" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-payments.min.css?1740838745" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-vendors.min.css?1740838745" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-marketing.min.css?1740838745" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/preview/js/demo-theme.min.js?1740838745"></script>
+
     <link rel="stylesheet" href="style.css" />
+    
 </head>
 
 <body>
+    <div id="root" class="root">
 
-    <h1>📊 Dashboard de Transações - Tibia Market</h1>
+    </div>
 
-    <section class="tibiacoin-section">
-        <h2>💰 Valor da Tibia Coin</h2>
-        <label>
-            1 TC =
-            <input type="number" id="tibiaCoinInput" min="0" step="1" />
-            gold
-        </label>
-    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/js/tabler.min.js"></script>
+    <script type="module" src="main.js"></script>
 
-    <section class="form-section">
-        <h2>➕ Criar Ordem de Compra</h2>
-        <form id="formOrdem" autocomplete="off">
-            <label style="position: relative;">Item:
-                <input type="text" id="itemNome" required />
-                <ul id="sugestoes" class="autocomplete-list"></ul>
-            </label>
-
-            <label>Valor Unitário:
-                <input type="number" id="itemValor" step="1" min="0" required />
-            </label>
-
-            <label>Quantidade:
-                <input type="number" id="itemQtd" min="1" required />
-            </label>
-
-            <button type="submit">Criar Ordem</button>
-        </form>
-    </section>
-
-    <section class="table-section">
-        <h2>📋 Ordens de Compra</h2>
-        <table id="ordensTable">
-            <thead>
-                <tr>
-                    <th>Item</th>
-                    <th>Preço Compra</th>
-                    <th>Preço Venda</th>
-                    <th>Quantidade</th>
-                    <th>Executado</th>
-                    <th>Valor Empenhado</th>
-                    <th>R$ Empenhado</th>
-                    <th>Retorno Obtido</th>
-                    <th>R$ Retorno</th>
-                    <th>Executar</th>
-                    <th>
-                        <button id="toggleFechadas">Esconder</button>
-                    </th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </section>
-
-    <script src="main.js"></script>
 </body>
 
 </html>
