@@ -1,29 +1,31 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<button id="read">Ler</button>
+<button id="write">Escrever</button>
 
-<head>
-    <meta charset="UTF-8" />
-    <title>Dashboard Entregáveis rubinot</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-flags.min.css?1740838745" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-socials.min.css?1740838745" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-payments.min.css?1740838745" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-vendors.min.css?1740838745" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler-marketing.min.css?1740838745" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/preview/js/demo-theme.min.js?1740838745"></script>
+<script>
+const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwQuQ03HBJ4985k3rhgpdo13YHRqVWsiYWmpuk2VaMD6agpGdkM94EQA1IGx8BdQg7b/exec";
 
-    <link rel="stylesheet" href="style.css" />
-    
-</head>
+async function readAll() {
+  const url = `${WEBAPP_URL}?action=read&sheet=Ordens`;
+  const res = await fetch(url);
+  const data = await res.json();
+  console.log("READ:", data);
+}
 
-<body>
-    <div id="root" class="root">
+async function writeCell() {
+  const res = await fetch(WEBAPP_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      action: "updateCell",
+      sheet: "Ordens",
+      range: "B2",
+      value: "Atualizado do front!"
+    })
+  });
+  const data = await res.json();
+  console.log("WRITE:", data);
+}
 
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/js/tabler.min.js"></script>
-    <script src="./main.js"></script>
-
-</body>
-
-</html>
+document.getElementById("read").onclick = readAll;
+document.getElementById("write").onclick = writeCell;
+</script>
