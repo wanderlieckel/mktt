@@ -29,11 +29,59 @@
 <body>
 
   <div id="root" class="root">
+    <div class="card">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs" data-bs-toggle="tabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a href="#tabs-home-1" class="nav-link" data-bs-toggle="tab" aria-selected="false" role="tab"
+              tabindex="-1">Operadores</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a href="#tabs-profile-1" class="nav-link" data-bs-toggle="tab" aria-selected="false" role="tab"
+              tabindex="-1">Market</a>
+          </li>
+          <li class="nav-item ms-auto" role="presentation">
+            <a href="#tabs-settings-1" class="nav-link active" title="Settings" data-bs-toggle="tab"
+              aria-selected="true" role="tab"><!-- Download SVG icon from http://tabler.io/icons/icon/settings -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-1">
+                <path
+                  d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z">
+                </path>
+                <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <div class="tab-content">
+          <div class="tab-pane" id="tabs-home-1" role="tabpanel">
+            <h4>Operadores</h4>
+            <div>
+                Aqui vai o card dos Operadores
+            </div>
+          </div>
+          <div class="tab-pane" id="tabs-profile-1" role="tabpanel">
+            <h4>Market</h4>
+            <div>
+              Aqui vai o card dos markets
+            </div>
+          </div>
+          <div class="tab-pane active show" id="tabs-settings-1" role="tabpanel">
+            <h4>Configurações</h4>
+            <div>
+              input para carregar o json
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  
+
   <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/js/tabler.min.js"></script>
-  <script type="module" src="./static/assets/main.js"></script>
+  <script type="" src="main.js"></script>
 </body>
 
 </html>
