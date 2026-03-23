@@ -1,31 +1,15 @@
-<button id="read">Ler</button>
-<button id="write">Escrever</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market - Rubinot </title>
+</head>
+<body>
+  
+</body>
 
-<script>
-const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwQuQ03HBJ4985k3rhgpdo13YHRqVWsiYWmpuk2VaMD6agpGdkM94EQA1IGx8BdQg7b/exec";
+<script src="main.js"></script>
+</html>
 
-async function readAll() {
-  const url = `${WEBAPP_URL}?action=read&sheet=Ordens`;
-  const res = await fetch(url);
-  const data = await res.json();
-  console.log("READ:", data);
-}
 
-async function writeCell() {
-  const res = await fetch(WEBAPP_URL, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      action: "updateCell",
-      sheet: "Ordens",
-      range: "B2",
-      value: "Atualizado do front!"
-    })
-  });
-  const data = await res.json();
-  console.log("WRITE:", data);
-}
-
-document.getElementById("read").onclick = readAll;
-document.getElementById("write").onclick = writeCell;
-</script>
