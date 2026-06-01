@@ -1,22 +1,30 @@
-import express from 'express';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import { app, BrowserWindow } from "electron";
+import path from "path";
+import { fileURLToPath } from "url";
 
-const app = express();
-const PORT = process.env.PORT || 3000;
-
-// Equivalente ao __dirname no ES6
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Publica toda a pasta public
-app.use(express.static(path.join(__dirname, 'public')));
+function createWindow() {
+  const win = new BrowserWindow({
+	width: 960,
+	height: 1080,
+	resizable: false,
+    frame:false,
+	x: 0,
+	y: 0,
+	webPreferences: {
+      nodeIntegration: false,
+      contextIsolation: true
+    }
+	
+  });
+  win.setMenu(null);
+  win.loadFile(path.join(__dirname, "index.html"));
+}
 
-// Página principal
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+app.whenReady().then(createWindow);
 
-app.listen(PORT, () => {
-    console.log(`Servidor rodando em http://localhost:${PORT}`);
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") app.quit();
 });
