@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerenciador de Comércio</title>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="titlebar">
+    <div class="title">
+      Gerenciador de Mercado - Tibia
+    </div>
+
+    <div class="window-controls">
+      <button id="minimize-btn" class="window-btn">─</button>
+      <button id="close-btn" class="window-btn close">✕</button>
+    </div>
+  </div>
+  <div class="app">
+
+    <nav class="navbar">
+      <div class="nav-info"id="totalProfit">Ganho Total: 00,00</div>
+      <div class="nav-info" id="monthlyProfit">Ganho Mensal: 0,00</div>
+      <div class="nav-info" id="dailyProfit">Ganho Diário: 0,00</div>
+    </nav>
+
+    <section class="carousel-section">
+      <div class="section-title">Servidores</div>
+
+      <div class="carousel" id="serverCarousel"></div>
+    </section>
+
+    <section class="search-bar">
+      <input type="text" placeholder="Pesquisar item, servidor ou ordem..." />
+    </section>
+
+    <section class="order-form">
+      <div class="section-title">Criar Ordem</div>
+
+      <div class="form-grid">
+        <input type="text" id="itemName" placeholder="Nome do item" />
+        <input type="number" id="itemQuantity" placeholder="Quantidade" />
+        <input type="number" id="itemValue" placeholder="Valor" />
+        <button id="createOrderBtn">Criar</button>
+      </div>
+    </section>
+
+    <section class="orders-section">
+      <div class="section-title">Ordens Criadas</div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Servidor</th>
+              <th>Item</th>
+              <th>Qtd</th>
+              <th>Valor</th>
+              <th>Status</th>
+              <th>Ação</th>
+            </tr>
+          </thead>
+
+          <tbody id="ordersTable">
+            <tr>
+              <td>Auroria</td>
+              <td>Exemplo Item</td>
+              <td>100</td>
+              <td>25.000</td>
+              <td class="status">Ativa</td>
+              <td><button class="delete-btn">Excluir</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="./js/backend.js" type="module"></script>
+  <script src="./js/app.js" type="module"></script>
+</body>
+
+</html>

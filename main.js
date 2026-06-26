@@ -1,30 +1,28 @@
 import { app, BrowserWindow } from "electron";
-import path from "path";
-import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import { createMainWindow } from "./src/windows/mainWindow.js";
+import { registerWindowIPC } from "./src/ipc/mainWindow.js";
 
-function createWindow() {
-  const win = new BrowserWindow({
-	width: 960,
-	height: 1080,
-	resizable: false,
-    frame:false,
-	x: 0,
-	y: 0,
-	webPreferences: {
-      nodeIntegration: false,
-      contextIsolation: true
-    }
-	
-  });
-  win.setMenu(null);
-  win.loadFile(path.join(__dirname, "index.html"));
-}
+let mainWindow;
 
-app.whenReady().then(createWindow);
+app.whenReady().then(() => {
+
+    mainWindow = createMainWindow();
+    mainWindow.webContents.reload();
+    registerWindowIPC(mainWindow);
+
+
+    app.on("activate", () => {
+        if (BrowserWindow.getAllWindows().length === 0) {
+            mainWindow = createMainWindow();
+            registerWindowIPC(mainWindow);
+
+        }
+    });
+
+});
 
 app.on("window-all-closed", () => {
-  if (process.platform !== "darwin") app.quit();
+    if (process.platform !== "darwin")
+        app.quit();
 });

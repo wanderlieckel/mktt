@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 860px;
+    height: 100vh;
+    background: linear-gradient(180deg, #061326, #0a1f3d);
+    color: #e8f1ff;
+    overflow: hidden;
+}
+
+.titlebar {
+    height: 40px;
+    background: #04101f;
+    border-bottom: 1px solid #194a83;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+
+    -webkit-app-region: drag;
+}
+
+.title {
+    color: #cde6ff;
+    font-weight: bold;
+    font-size: 14px;
+    user-select: none;
+}
+
+.window-controls {
+    display: flex;
+    gap: 4px;
+
+    -webkit-app-region: no-drag;
+    padding-right: 4px;
+}
+
+.window-btn {
+    width: 38px;
+    height: 28px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: transparent;
+    color: white;
+
+    font-size: 14px;
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.window-btn:hover {
+    background: #1b4f84;
+}
+
+.window-btn.close:hover {
+    background: #c42b1c;
+}
+
+
+.app {
+    width: 850px;
+    height: calc(100vh - 40px);
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 14px;
+    gap: 14px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background: #0d2b52;
+    border: 1px solid #1f4f86;
+    border-radius: 12px;
+    padding: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.nav-info {
+    flex: 1;
+    text-align: center;
+    background: #071a33;
+    padding: 10px;
+    border-radius: 10px;
+    color: #9fd3ff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.carousel-section {
+    background: #071a33;
+    border: 1px solid #1f4f86;
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    color: #b7ddff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.carousel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+}
+
+.carousel::-webkit-scrollbar {
+    height: 7px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background: #2e6fb0;
+    border-radius: 10px;
+}
+
+.server-card {
+    min-width: 120px;
+    background: linear-gradient(160deg, #123a68, #0b2444);
+    border: 1px solid #2c6ca8;
+    border-radius: 12px;
+    padding: 14px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.server-card:hover,
+.server-card.active {
+    background: linear-gradient(160deg, #1e74bd, #154c80);
+    transform: translateY(-2px);
+}
+
+.search-bar input,
+.order-form input {
+    width: 100%;
+    background: #061326;
+    border: 1px solid #2c6ca8;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-bar input:focus,
+.order-form input:focus {
+    border-color: #65b7ff;
+}
+
+.order-form {
+    background: #071a33;
+    border: 1px solid #1f4f86;
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 120px 140px 100px;
+    gap: 10px;
+}
+
+button {
+    background: #1e74bd;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #2994ed;
+}
+
+.orders-section {
+    flex: 1;
+    background: #071a33;
+    border: 1px solid #1f4f86;
+    border-radius: 12px;
+    padding: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-wrapper {
+    overflow-y: auto;
+    flex: 1;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+thead {
+    background: #0d2b52;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #173d68;
+}
+
+th {
+    color: #9fd3ff;
+}
+
+tbody tr:hover {
+    background: #0b2444;
+}
+
+.status {
+    color: #7ee787;
+    font-weight: bold;
+}
+
+.delete-btn {
+    padding: 7px 10px;
+    background: #7c1f2c;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background: #b3263d;
+}
