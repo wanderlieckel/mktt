@@ -502,6 +502,70 @@ function setupExecuteOrderModal() {
         }
     });
 }
+//function to create modal of settings
+async function openSettingsModal() {
+
+    const config = await window.backend.settings.getServerSettings(selectedServer);
+
+    document.getElementById("settingsServerName").innerText = selectedServer;
+    document.getElementById("currentGoldCoinValue").innerText = config.goldCoinValue;
+    document.getElementById("currentBRL250CoinsValue").innerText = config.brl250CoinsValue.toFixed(2);
+
+    document.getElementById("settingsModal").classList.remove("hidden");
+
+}
+//function to close this modal
+function closeSettingsModal() {
+    document.getElementById("settingsModal").classList.add("hidden");
+}
+//function for setup settings modal
+async function setupSettingsModal() {
+    const modal = document.getElementById("settingsModal");
+
+    document.getElementById("settingsBtn").addEventListener("click", openSettingsModal);
+    document.getElementById("closeSettingsModalBtn").addEventListener("click", closeSettingsModal);
+
+    modal.addEventListener("click", event => {
+        if (event.target === modal) {
+            closeSettingsModal();
+        }
+    });
+
+    document.addEventListener("keydown", event => {
+        if (event.key === "Escape") {
+            closeSettingsModal();
+        }
+    });
+
+    document.getElementById("updateGoldCoinBtn").addEventListener("click", async () => {
+        const server = selectedServer || "auroria";
+        const value = Number(document.getElementById("goldCoinInput").value);
+
+        if (value <= 0) return;
+
+        await window.backend.settings.updateGoldCoinValue(
+            selectedServer,
+            Number(document.getElementById("goldCoinInput").value)
+        );
+
+        await openSettingsModal();
+
+    });
+
+    document.getElementById("updateBRL250CoinsBtn").addEventListener("click", async () => {
+        const server = selectedServer;
+        const value = Number(document.getElementById("brl250CoinsInput").value);
+
+        if (value <= 0) {
+            return;
+        }
+
+        await window.backend.settings.updateBRL250CoinsValue(server, value);
+
+        await openSettingsModal();
+    });
+}
+
 
 
 async function initialize() {
@@ -516,6 +580,7 @@ async function initialize() {
     setupCreateOrderButton();
     setupStatusFilter();
     setupExecuteOrderModal();
+    setupSettingsModal();
 
 }
 
