@@ -253,3 +253,160 @@ tbody tr:hover {
 .delete-btn:hover {
     background: #b3263d;
 }
+
+.search-bar {
+    position: relative;
+}
+
+.search-dropdown {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+
+    background: #071a33;
+    border: 1px solid #2c6ca8;
+    border-radius: 10px;
+
+    max-height: 220px;
+    overflow-y: auto;
+
+    z-index: 10;
+}
+
+.search-dropdown-item {
+    padding: 12px;
+    cursor: pointer;
+    color: #e8f1ff;
+    border-bottom: 1px solid #173d68;
+}
+
+.search-dropdown-item:hover {
+    background: #123a68;
+}
+
+.collapsible-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 0;
+}
+
+.toggle-icon {
+    font-size: 12px;
+    transition: transform 0.2s;
+}
+
+.order-form-content {
+    margin-top: 10px;
+    display: block;
+}
+
+.order-form.collapsed .order-form-content {
+    display: none;
+}
+
+.order-form.collapsed .toggle-icon {
+    transform: rotate(-90deg);
+}
+
+.form-input-wrapper {
+    position: relative;
+}
+
+.form-input-wrapper .search-dropdown {
+    top: 46px;
+}
+
+.status-filter {
+    cursor: pointer;
+    user-select: none;
+    transition: .2s;
+}
+
+.status-filter.active {
+    color: #52d273;
+}
+
+.status-filter.all {
+    color: #ff5a5a;
+}
+
+.order-warning {
+    background: rgba(255, 193, 7, 0.16);
+    box-shadow: inset 4px 0 0 #ffc107;
+}
+
+.order-danger {
+    background: rgba(255, 80, 80, 0.18);
+    box-shadow: inset 4px 0 0 #ff5050;
+}
+
+.cancel-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    background: #334155;
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 999;
+}
+
+.modal-overlay.hidden {
+    display: none;
+}
+
+.execute-modal-box {
+    width: 360px;
+    background: #071a33;
+    border: 1px solid #2c6ca8;
+    border-radius: 14px;
+    padding: 22px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    position: relative;
+}
+
+.execute-modal-box h3 {
+    color: #b7ddff;
+    font-size: 18px;
+}
+
+.execute-modal-box input {
+    background: #061326;
+    border: 1px solid #2c6ca8;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background: transparent;
+    color: white;
+}
+
+.modal-close-btn:hover {
+    background: #c42b1c;
+}

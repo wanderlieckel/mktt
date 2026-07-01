@@ -23,7 +23,7 @@
   <div class="app">
 
     <nav class="navbar">
-      <div class="nav-info"id="totalProfit">Ganho Total: 00,00</div>
+      <div class="nav-info" id="totalProfit">Ganho Total: 00,00</div>
       <div class="nav-info" id="monthlyProfit">Ganho Mensal: 0,00</div>
       <div class="nav-info" id="dailyProfit">Ganho Diário: 0,00</div>
     </nav>
@@ -34,18 +34,28 @@
       <div class="carousel" id="serverCarousel"></div>
     </section>
 
-    <section class="search-bar">
-      <input type="text" placeholder="Pesquisar item, servidor ou ordem..." />
-    </section>
+    <div class="search-bar">
+      <input type="text" id="itemSearchInput" placeholder="Pesquisar item..." autocomplete="off" />
 
-    <section class="order-form">
-      <div class="section-title">Criar Ordem</div>
+      <div id="itemSearchDropdown" class="search-dropdown"></div>
+    </div>
 
-      <div class="form-grid">
-        <input type="text" id="itemName" placeholder="Nome do item" />
-        <input type="number" id="itemQuantity" placeholder="Quantidade" />
-        <input type="number" id="itemValue" placeholder="Valor" />
-        <button id="createOrderBtn">Criar</button>
+    <section class="order-form collapsed" id="orderFormSection">
+      <div class="section-title collapsible-title" id="orderFormToggle">
+        Criar Ordem
+        <span class="toggle-icon">▼</span>
+      </div>
+
+      <div class="order-form-content" id="orderFormContent">
+        <div class="form-grid">
+          <div class="form-input-wrapper">
+            <input type="text" id="itemName" placeholder="Nome do item" autocomplete="off" />
+            <div id="createItemDropdown" class="search-dropdown"></div>
+          </div>
+          <input type="number" id="itemQuantity" placeholder="Quantidade" />
+          <input type="number" id="itemValue" placeholder="Valor" />
+          <button id="createOrderBtn">Criar</button>
+        </div>
       </div>
     </section>
 
@@ -60,8 +70,12 @@
               <th>Item</th>
               <th>Qtd</th>
               <th>Valor</th>
-              <th>Status</th>
+              <th>Lucro</th>
+              <th id="statusHeader" class="status-filter active">
+                Status
+              </th>
               <th>Ação</th>
+
             </tr>
           </thead>
 
@@ -71,6 +85,8 @@
               <td>Exemplo Item</td>
               <td>100</td>
               <td>25.000</td>
+              <td>5.000</td>
+              <td>0,02</td>
               <td class="status">Ativa</td>
               <td><button class="delete-btn">Excluir</button></td>
             </tr>
@@ -80,6 +96,20 @@
     </section>
 
   </div>
+
+  <div id="executeOrderModal" class="modal-overlay hidden">
+    <div class="execute-modal-box">
+      <button id="closeExecuteModalBtn" class="modal-close-btn">✕</button>
+
+      <h3 id="executeModalItemName">Nome do item</h3>
+
+      <input type="number" id="executeQuantityInput" placeholder="Quantidade comprada" />
+
+      <button id="confirmExecuteOrderBtn">OK</button>
+    </div>
+  </div>
+
+
 
   <script src="./js/backend.js" type="module"></script>
   <script src="./js/app.js" type="module"></script>

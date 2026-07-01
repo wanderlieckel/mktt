@@ -64,22 +64,114 @@ class Servers {
 }
 
 class OrderHandler {
-    getOrders() {
+
+    hoursAgo(hours) {
+        return Date.now() - (hours * 60 * 60 * 1000);
+    }
+
+    getOrders(orders) {
         if (window.electronAPI?.orders.getOrders) {
             window.electronAPI.orders.getOrders();
             return;
         }
         else {
             console.log("[Mock Backend] orders.getOrders()");
-            return [
-                { id: "1", server: 'auroria', itemName: 'Iron Ore', quantity: [0, 10], value: 500, status: 'active' },
-                { id: "2", server: 'auroria', itemName: 'Demonic Essence', quantity: [0, 5], value: 1000, status: 'active' },
-                { id: "3", server: 'bellum', itemName: 'Iron Ore', quantity: [10, 10], value: 500, status: 'done' },
-                { id: "4", server: 'belaria', itemName: 'Demonic Essence', quantity: [3, 5], value: 1000, status: 'cancelled' },
-            ];
+            if (orders.length > 0) {
+                return orders;
+            } else {
+                return [
+                    {
+                        id: "2",
+                        server: "auroria",
+                        itemName: "Gold Ingot",
+                        quantity: [2, 15],
+                        value: 12000,
+                        profit: 0.03,
+                        status: "active",
+                        timestamp: this.hoursAgo(37)
+                    },
+                    {
+                        id: "3",
+                        server: "auroria",
+                        itemName: "Platinum Coin",
+                        quantity: [0, 100],
+                        value: 1150,
+                        profit: 0.05,
+                        status: "active",
+                        timestamp: this.hoursAgo(49)
+                    }
+                ];
+            }
+
         }
 
     }
+    async createOrder(order, orders) {
+        if (window.electronAPI?.orders?.createOrder) {
+            return await window.electronAPI.orders.createOrder(order);
+        }
+
+        const newOrder = {
+            id: crypto.randomUUID(),
+            server: order.server,
+            itemName: order.itemName,
+            quantity: [0, Number(order.quantity)],
+            value: Number(order.value),
+            profit: 0,
+            status: "active",
+            timestamp: Date.now()
+        };
+
+        orders.push(newOrder);
+
+        console.log("[Mock Backend] orders.createOrder()", newOrder);
+
+        return newOrder;
+    }
+
+    async cancelOrder(id, orders) {
+        if (window.electronAPI?.orders?.cancelOrder) {
+            return await window.electronAPI.orders.cancelOrder(id);
+        }
+
+        const order = orders.find(order => order.id === id);
+
+        if (!order) {
+            return false;
+        }
+
+        order.status = "cancelled";
+
+        console.log("[Mock Backend] orders.cancelOrder()", id);
+
+        return true;
+    }
+
+    async executeOrder(id, quantity, orders) {
+        if (window.electronAPI?.orders?.executeOrder) {
+            return await window.electronAPI.orders.executeOrder(id, quantity);
+        }
+
+        const order = orders.find(order => order.id === id);
+
+        if (!order) {
+            return false;
+        }
+
+        order.quantity[0] += Number(quantity);
+        order.timestamp = Date.now();
+
+        if (order.quantity[0] >= order.quantity[1]) {
+            order.quantity[0] = order.quantity[1];
+            order.status = "completed";
+        }
+
+        console.log("[Mock Backend] orders.executeOrder()", id, quantity);
+
+        return true;
+    }
+
+
 }
 
 
