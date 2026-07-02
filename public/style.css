@@ -410,3 +410,51 @@ tbody tr:hover {
 .modal-close-btn:hover {
     background: #c42b1c;
 }
+
+.settings-modal-box {
+    width: 420px;
+    background: #071a33;
+    border: 1px solid #2c6ca8;
+    border-radius: 14px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.settings-modal-box h3 {
+    color: #b7ddff;
+    font-size: 18px;
+}
+
+.settings-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.settings-row label {
+    color: #9fd3ff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.settings-row span,
+.settings-row strong {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.settings-row input {
+    background: #061326;
+    border: 1px solid #2c6ca8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.settings-row button {
+    padding: 10px;
+}

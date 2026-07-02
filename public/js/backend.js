@@ -5,6 +5,7 @@ class Backend {
         this.servers = new Servers();
         this.orders = [];
         this.orderHandler = new OrderHandler();
+        this.settings = new SettingsBackend();
     }
 }
 
@@ -173,6 +174,77 @@ class OrderHandler {
 
 
 }
+
+class SettingsBackend {
+
+    constructor() {
+
+        this.serverSettings = {
+
+            auroria: {
+                goldCoinValue: 45000,
+                brl250CoinsValue: 86.00
+            },
+
+            belaria: {
+                goldCoinValue: 42000,
+                brl250CoinsValue: 86.00
+            }
+
+        };
+
+    }
+
+    async getServerSettings(server) {
+        server = server.toLowerCase()
+        if (window.electronAPI?.settings?.getServerCoinConfig) {
+            return await window.electronAPI.settings.getServerCoinConfig(server);
+        }
+
+        console.log("[Mock Backend] settings.getServerCoinConfig()", server);
+
+        return this.serverSettings[server];
+
+    }
+
+    async updateGoldCoinValue(server, value) {
+
+        if (window.electronAPI?.settings?.updateGoldCoinValue) {
+            return await window.electronAPI.settings.updateGoldCoinValue(server, value);
+        }
+
+        console.log("[Mock Backend] settings.updateGoldCoinValue()", server, value);
+
+        if (!this.serverSettings[server]) {
+            this.serverSettings[server] = {};
+        }
+
+        this.serverSettings[server].goldCoinValue = value;
+
+        return true;
+
+    }
+
+    async updateBRL250CoinsValue(server, value) {
+
+        if (window.electronAPI?.settings?.updateBRL250CoinsValue) {
+            return await window.electronAPI.settings.updateBRL250CoinsValue(server, value);
+        }
+
+        console.log("[Mock Backend] settings.updateBRL250CoinsValue()", server, value);
+
+        if (!this.serverSettings[server]) {
+            this.serverSettings[server] = {};
+        }
+
+        this.serverSettings[server].brl250CoinsValue = value;
+
+        return true;
+
+    }
+
+}
+
 
 
 window.backend = new Backend()
