@@ -69,10 +69,10 @@ class OrderHandler {
         return Date.now() - (hours * 60 * 60 * 1000);
     }
 
-    getOrders(orders) {
+    async getOrders(orders) {
         if (window.electronAPI?.orders.getOrders) {
-            window.electronAPI.orders.getOrders();
-            return;
+            return await window.electronAPI.orders.getOrders();
+
         }
         else {
             console.log("[Mock Backend] orders.getOrders()");

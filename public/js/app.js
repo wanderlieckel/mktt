@@ -88,12 +88,13 @@ async function loadServer() {
 //Function to load orders and display them in the table
 async function loadOrders() {
     backendOrders = await window.backend.orderHandler.getOrders(window.backend.orders);
-    const orders = backendOrders; // Store the orders in a separate variable
+    console.log("Loaded orders:", backendOrders); // Log the loaded orders for debugging
+    let orders = backendOrders; // Store the orders in a separate variable
     window.backend.orders = orders; // Store the orders in the backend object
 
     const table = document.getElementById("ordersTable");
     table.innerHTML = ""; // Clear existing rows
-    for (const order of orders) {
+    for (const order of backendOrders) {
         let tr = document.createElement("tr");
         tr.id = order.server + order.id; // Assign a unique ID to the row
         const ageClass = getOrderAgeClass(order.timestamp);

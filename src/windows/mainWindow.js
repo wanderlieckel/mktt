@@ -27,6 +27,7 @@ export function createMainWindow() {
     });
 
     window.loadFile(path.join(__dirname, "../../public/index.html"));
+    
 
     return window;
 }
