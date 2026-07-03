@@ -1,0 +1,14 @@
+{
+    "id": "dc44b52c-7286-42c1-ac1e-c1d8193bb7a3",
+    "server": "auroria",
+    "itemName": "Gold Ingot",
+    "quantity": [
+        100,
+        100
+    ],
+    "value": 3500,
+    "profit": 0,
+    "status": "completed",
+    "creationtime": 1783109550624,
+    "lastupdate": 1783109604911
+}

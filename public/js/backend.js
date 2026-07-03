@@ -31,17 +31,17 @@ class WindowBackend {
 class StatisticsProfit {
 
     getTotalProfit() {
-        if (window.electronAPI?.statistics.getSummary) {
-            window.electronAPI.statistics.getSummary();
-            return;
+        if (window.electronAPI?.settings.getProfitSummary) {
+            return window.electronAPI.settings.getProfitSummary();
+
         }
         else {
-            console.log("[Mock Backend] statistics.getSummary()");
+            console.log("[Mock Backend] settings.getProfitSummary())");
 
             return {
-                total: 122.00,
-                monthly: 35.00,
-                daily: 4.50
+                total: 'R$ 122.00',
+                monthly: 'R$ 35.00',
+                daily: 'R$ 0.00'
             };
         }
     }
@@ -49,12 +49,12 @@ class StatisticsProfit {
 
 class Servers {
     getServerList() {
-        if (window.electronAPI?.statistics.getServerList) {
-            window.electronAPI.statistics.getServerList();
-            return;
+        if (window.electronAPI?.settings.getServerList) {
+            return window.electronAPI.settings.getServerList();
+
         }
         else {
-            console.log("[Mock Backend] statistics.getServerList()");
+            console.log("[Mock Backend] settings.getServerList()");
             return ["Auroria", "Belaria", "Bellum", "Divinian", "Etherian", "Elysian",
                 "Halorian", "Lunarian", "Serenian", "Solarian", "Mistian", "Vesperia",
                 "Spectrum", "Tenebrium", "Grimoria I", "Grimoria II", "Grimoria III", "Grimoria IV"
@@ -109,25 +109,10 @@ class OrderHandler {
     }
     async createOrder(order, orders) {
         if (window.electronAPI?.orders?.createOrder) {
+            console.log("[Mock Backend] orders.createOrder()", order);
             return await window.electronAPI.orders.createOrder(order);
         }
 
-        const newOrder = {
-            id: crypto.randomUUID(),
-            server: order.server,
-            itemName: order.itemName,
-            quantity: [0, Number(order.quantity)],
-            value: Number(order.value),
-            profit: 0,
-            status: "active",
-            timestamp: Date.now()
-        };
-
-        orders.push(newOrder);
-
-        console.log("[Mock Backend] orders.createOrder()", newOrder);
-
-        return newOrder;
     }
 
     async cancelOrder(id, orders) {
@@ -153,21 +138,6 @@ class OrderHandler {
             return await window.electronAPI.orders.executeOrder(id, quantity);
         }
 
-        const order = orders.find(order => order.id === id);
-
-        if (!order) {
-            return false;
-        }
-
-        order.quantity[0] += Number(quantity);
-        order.timestamp = Date.now();
-
-        if (order.quantity[0] >= order.quantity[1]) {
-            order.quantity[0] = order.quantity[1];
-            order.status = "completed";
-        }
-
-        console.log("[Mock Backend] orders.executeOrder()", id, quantity);
 
         return true;
     }
