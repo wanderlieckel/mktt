@@ -5,6 +5,7 @@ let filteredItems = [];
 let createOrderFilteredItems = [];
 let showOnlyActiveOrders = false;
 let selectedExecutionOrderId = null;
+let itemList = [];
 
 
 function addOrder() {
@@ -52,17 +53,41 @@ minimizeBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
     window.backend.window.close();
 });
+
+async function getItemList() {
+    const itens = await window.backend.settings.getItemList();
+    console.log(itens)
+    itemList = itens
+}
 //functions to update profit summary
 async function updateProfitSummary() {
-    const summary = await window.backend.statistics.getTotalProfit();
-    document.getElementById("totalProfit").innerText = 'Ganho Total: ' + summary.total;
-    document.getElementById("monthlyProfit").innerText = 'Ganho Mensal: ' + summary.monthly;
-    document.getElementById("dailyProfit").innerText = 'Ganho Diário: ' + summary.daily;
+    const summaries = await window.backend.statistics.getTotalProfit();
+    const servers = await window.backend.servers.getServerList();
+    const summary = {
+        total: 0,
+        monthly: 0,
+        daily: 0
+    }
+    for (let i = 0; i < servers.length; i++) {
+        const s = servers[i];
+        console.log(s)
+        let values = await window.backend.settings.getServerSettings(s.toLowerCase())
+        summary.total = summary.total + (summaries.total[s.toLowerCase()] / values[0] * (values[1] / 1000))
+        summary.monthly = summary.monthly + (summaries.monthly[s.toLowerCase()] / values[0] * (values[1] / 1000))
+        summary.daily = summary.daily + (summaries.daily[s.toLowerCase()] / values[0] * (values[1] / 1000))
+    }
+
+    document.getElementById("totalProfit").innerText = 'Ganho Total: R$ ' + summary.total.toFixed(2);
+    document.getElementById("monthlyProfit").innerText = 'Ganho Mensal: R$  ' + summary.monthly.toFixed(2);
+    document.getElementById("dailyProfit").innerText = 'Ganho Diário: R$  ' + summary.daily.toFixed(2);
 }
+
+
 //Functions to loadServer list
 async function loadServer() {
     const servers = await window.backend.servers.getServerList();
     const carousel = document.getElementById("serverCarousel");
+    console.log(servers)
     servers.forEach((server, index) => {
         if (index === 0) {
             selectedServer = server;
@@ -301,16 +326,9 @@ function updateCreateItemDropdown(searchText) {
         return;
     }
 
-    const foundItems = backendOrders
-        .filter(order => {
-            const serverMatch = !selectedServer || order.server.toLowerCase() === selectedServer.toLowerCase();
-            const itemMatch = order.itemName.toLowerCase().includes(searchText.toLowerCase());
-
-            return serverMatch && itemMatch;
-        })
-        .map(order => order.itemName);
-
-    createOrderFilteredItems = [...new Set(foundItems)];
+    createOrderFilteredItems = itemList.filter(itemName =>
+        itemName.toLowerCase().includes(searchText.toLowerCase())
+    );
 
     if (createOrderFilteredItems.length === 0) {
         dropdown.style.display = "none";
@@ -507,10 +525,10 @@ function setupExecuteOrderModal() {
 async function openSettingsModal() {
 
     const config = await window.backend.settings.getServerSettings(selectedServer);
-
+    console.log(config)
     document.getElementById("settingsServerName").innerText = selectedServer;
-    document.getElementById("currentGoldCoinValue").innerText = config.goldCoinValue;
-    document.getElementById("currentBRL250CoinsValue").innerText = config.brl250CoinsValue.toFixed(2);
+    document.getElementById("currentGoldCoinValue").innerText = config[0];
+    document.getElementById("currentBRL250CoinsValue").innerText = config[1].toFixed(2);
 
     document.getElementById("settingsModal").classList.remove("hidden");
 
@@ -570,6 +588,7 @@ async function setupSettingsModal() {
 
 
 async function initialize() {
+    await getItemList();
     await loadOrders();
     await loadServer();
     await updateProfitSummary();

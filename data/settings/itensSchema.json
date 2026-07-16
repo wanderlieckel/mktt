@@ -1,0 +1,450 @@
+[
+  {
+    "name": "small amethyst",
+    "value": 200
+  },
+  {
+    "name": "small emerald",
+    "value": 250
+  },
+  {
+    "name": "small ruby",
+    "value": 250
+  },
+  {
+    "name": "Small Topaz",
+    "value": 200
+  },
+  {
+    "name": "Demonic Essence",
+    "value": 1000
+  },
+  {
+    "name": "Vexclaw Talon",
+    "value": 1100
+  },
+  {
+    "name": "Energy Ring",
+    "value": 100
+  },
+  {
+    "name": "Fire Axe",
+    "value": 8000
+  },
+  {
+    "name": "Giant Sword",
+    "value": 17000
+  },
+  {
+    "name": "Ice Rapier",
+    "value": 1000
+  },
+  {
+    "name": "Red Gem",
+    "value": 1000
+  },
+  {
+    "name": "Yellow Gem",
+    "value": 1000
+  },
+  {
+    "name": "Devil Helmet",
+    "value": 1000
+  },
+  {
+    "name": "Rift Lance",
+    "value": 30000
+  },
+  {
+    "name": "Platinum Amulet",
+    "value": 2500
+  },
+  {
+    "name": "Golden Legs",
+    "value": 30000
+  },
+  {
+    "name": "Magic Plate Armor",
+    "value": 90000
+  },
+  {
+    "name": "Mastermind Shield",
+    "value": 50000
+  },
+  {
+    "name": "Demonrage Sword",
+    "value": 36000
+  },
+  {
+    "name": "Rift Crossbow",
+    "value": 45000
+  },
+  {
+    "name": "Rift Bow",
+    "value": 45000
+  },
+  {
+    "name": "Rift Shield",
+    "value": 50000
+  },
+  {
+    "name": "Demon Shield",
+    "value": 30000
+  },
+  {
+    "name": "Small Diamond",
+    "value": 300
+  },
+  {
+    "name": "Underworld Rod",
+    "value": 4400
+  },
+  {
+    "name": "Wand of Voodoo",
+    "value": 4400
+  },
+  {
+    "name": "Blue Gem",
+    "value": 5000
+  },
+  {
+    "name": "Magma Legs",
+    "value": 11000
+  },
+  {
+    "name": "Nightmare Blade",
+    "value": 35000
+  },
+  {
+    "name": "Abyss Hammer",
+    "value": 20000
+  },
+  {
+    "name": "Steel Boots",
+    "value": 30000
+  },
+  {
+    "name": "Vile Axe",
+    "value": 30000
+  },
+  {
+    "name": "magma boots",
+    "value": 2500
+  },
+  {
+    "name": "Golden Armor",
+    "value": 20000
+  },
+  {
+    "name": "Spellbook of Mind Control",
+    "value": 13000
+  },
+  {
+    "name": "Skull Helmet",
+    "value": 40000
+  },
+  {
+    "name": "Heavy Mace",
+    "value": 50000
+  },
+  {
+    "name": "Demonbone Amulet",
+    "value": 32000
+  },
+  {
+    "name": "Titan Axe",
+    "value": 4000
+  },
+  {
+    "name": "Giant Shimmering Pearl",
+    "value": 3000
+  },
+  {
+    "name": "Pair of Hellflayer Horns",
+    "value": 1300
+  },
+  {
+    "name": "Gold Ingot",
+    "value": 5000
+  },
+  {
+    "name": "Butcher's Axe",
+    "value": 18000
+  },
+  {
+    "name": "Death Ring",
+    "value": 1000
+  },
+  {
+    "name": "Cat's Paw",
+    "value": 2000
+  },
+  {
+    "name": "Orichalcum Pearl",
+    "value": 40
+  },
+  {
+    "name": "Soul Orb",
+    "value": 25
+  },
+  {
+    "name": "Skullcracker Armor",
+    "value": 18000
+  },
+  {
+    "name": "Spellweaver's Robe",
+    "value": 12000
+  },
+  {
+    "name": "Royal Helmet",
+    "value": 30000
+  },
+  {
+    "name": "Dragonbone Staff",
+    "value": 3000
+  },
+  {
+    "name": "Hardened Bone",
+    "value": 70
+  },
+  {
+    "name": "Unholy Bone",
+    "value": 480
+  },
+  {
+    "name": "Falcon Crest",
+    "value": 650
+  },
+  {
+    "name": "Spiked Squelcher",
+    "value": 5000
+  },
+  {
+    "name": "Knight Armor",
+    "value": 5000
+  },
+  {
+    "name": "Knight legs",
+    "value": 5000
+  },
+  {
+    "name": "Ring of the Sky",
+    "value": 30000
+  },
+  {
+    "name": "Drakinata",
+    "value": 10000
+  },
+  {
+    "name": "Zaoan Legs",
+    "value": 14000
+  },
+  {
+    "name": "Zaoan Armor",
+    "value": 14000
+  },
+  {
+    "name": "Zaoan Shoes",
+    "value": 5000
+  },
+  {
+    "name": "Tower Shield",
+    "value": 8000
+  },
+  {
+    "name": "Zaoan Halberd",
+    "value": 500
+  },
+  {
+    "name": "Warmaster's Wristguards",
+    "value": 200
+  },
+  {
+    "name": "Bone Shoulderplate",
+    "value": 150
+  },
+  {
+    "name": "Jade Hammer",
+    "value": 25000
+  },
+  {
+    "name": "Berserker",
+    "value": 40000
+  },
+  {
+    "name": "Lightning Boots",
+    "value": 2500
+  },
+  {
+    "name": "Bonebreaker",
+    "value": 10000
+  },
+  {
+    "name": "Berserk Potion",
+    "value": 500
+  },
+  {
+    "name": "Iron Ore",
+    "value": 500
+  },
+  {
+    "name": "War Hammer",
+    "value": 1200
+  },
+  {
+    "name": "Noble Axe",
+    "value": 10000
+  },
+  {
+    "name": "Hammer of Wrath",
+    "value": 30000
+  },
+  {
+    "name": "Glacier Kilt",
+    "value": 11000
+  },
+  {
+    "name": "Crab Man Claws",
+    "value": 550
+  },
+  {
+    "name": "Rhindeer Antlers",
+    "value": 68
+  },
+  {
+    "name": "Rainbow Quartz",
+    "value": 500
+  },
+  {
+    "name": "Assassin Dagger",
+    "value": 20000
+  },
+  {
+    "name": "Shadow Sceptre",
+    "value": 10000
+  },
+  {
+    "name": "Silver Brooch",
+    "value": 150
+  },
+  {
+    "name": "Relic Sword",
+    "value": 25000
+  },
+  {
+    "name": "Wand of Cosmic Energy",
+    "value": 2000
+  },
+  {
+    "name": "Lion Figurine",
+    "value": 10000
+  },
+  {
+    "name": "Crown Helmet",
+    "value": 2500
+  },
+  {
+    "name": "Crown Armor",
+    "value": 12000
+  },
+  {
+    "name": "Ivory Carving",
+    "value": 300
+  },
+  {
+    "name": "Ankh",
+    "value": 100
+  },
+  {
+    "name": "Serpent Sword",
+    "value": 900
+  },
+  {
+    "name": "Black Pearl",
+    "value": 280
+  },
+  {
+    "name": "Werehyaena Trophy",
+    "value": 12000
+  },
+  {
+    "name": "Werehyaena Talisman",
+    "value": 350
+  },
+  {
+    "name": "Werehyaena Nose",
+    "value": 220
+  },
+  {
+    "name": "Life Preserver",
+    "value": 300
+  },
+  {
+    "name": "Wooden Spellbook",
+    "value": 12000
+  },
+  {
+    "name": "Brown Crystal",
+    "value": 400
+  },
+  {
+    "name": "Focus Cape",
+    "value": 6000
+  },
+  {
+    "name": "Fur Armor ",
+    "value": 5000
+  },
+  {
+    "name": "Golden Sickle",
+    "value": 1000
+  },
+  {
+    "name": "Two Handed Sword",
+    "value": 450
+  },
+  {
+    "name": "Wand of Inferno",
+    "value": 3000
+  },
+  {
+    "name": "Onyx Chip",
+    "value": 500
+  },
+  {
+    "name": "Opal",
+    "value": 500
+  },
+  {
+    "name": "Gearwheel Chain",
+    "value": 5000
+  },
+  {
+    "name": "Ornate Crossbow",
+    "value": 12000
+  },
+  {
+    "name": "calopteryx cape",
+    "value": 15000
+  },
+  {
+    "name": "glooth amulet",
+    "value": 2000
+  },
+  {
+    "name": "necklace of the deep",
+    "value": 3000
+  },
+  {
+    "name": "werewolf amulet",
+    "value": 3000
+  },
+  {
+    "name": "anterior",
+    "value": 1
+  },
+  {
+    "name": "farm",
+    "value": 1
+  }
+]

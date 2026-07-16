@@ -168,6 +168,7 @@ class SettingsBackend {
     async getServerSettings(server) {
         server = server.toLowerCase()
         if (window.electronAPI?.settings?.getServerCoinConfig) {
+
             return await window.electronAPI.settings.getServerCoinConfig(server);
         }
 
@@ -176,6 +177,19 @@ class SettingsBackend {
         return this.serverSettings[server];
 
     }
+
+    async getItemList() {
+
+        if (window.electronAPI?.settings?.getItensSchemaNames) {
+
+            return await window.electronAPI.settings.getItensSchemaNames();
+        }
+
+
+    }
+
+
+
 
     async updateGoldCoinValue(server, value) {
 
