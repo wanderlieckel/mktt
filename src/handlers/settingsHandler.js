@@ -77,12 +77,13 @@ export default class settingsHandler {
 
     async getItensSchemaNames() {
         let itens = await this.documentsHandlerInstance.loadSettingFile('itensSchema')
-        let itemlist = [];
+        let response = { itemlist: [], itemobjetcts: [] }
         for (let i = 0; i < itens.length; i++) {
             const e = itens[i];
-            itemlist.push(e.name)
+            response.itemlist.push(e.name)
+            response.itemobjetcts.push(e)
         }
-        return itemlist
+        return response
     }
 
     async updateGoldCoinValue(server, value) {

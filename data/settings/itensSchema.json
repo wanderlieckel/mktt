@@ -1,450 +1,4226 @@
 [
   {
-    "name": "small amethyst",
-    "value": 200
+    "name": "Albino Plate",
+    "value": "1500"
   },
   {
-    "name": "small emerald",
-    "value": 250
+    "name": "Buckle",
+    "value": "7000"
   },
   {
-    "name": "small ruby",
-    "value": 250
+    "name": "Crystalline Armor",
+    "value": "16000"
   },
   {
-    "name": "Small Topaz",
-    "value": 200
+    "name": "Divine Plate",
+    "value": "55000"
   },
   {
-    "name": "Demonic Essence",
-    "value": 1000
+    "name": "Dragon Scale Mail",
+    "value": "40000"
   },
   {
-    "name": "Vexclaw Talon",
-    "value": 1100
+    "name": "Dwarven Armor",
+    "value": "30000"
   },
   {
-    "name": "Energy Ring",
-    "value": 100
+    "name": "Flower Dress",
+    "value": "1000"
   },
   {
-    "name": "Fire Axe",
-    "value": 8000
-  },
-  {
-    "name": "Giant Sword",
-    "value": 17000
-  },
-  {
-    "name": "Ice Rapier",
-    "value": 1000
-  },
-  {
-    "name": "Red Gem",
-    "value": 1000
-  },
-  {
-    "name": "Yellow Gem",
-    "value": 1000
-  },
-  {
-    "name": "Devil Helmet",
-    "value": 1000
-  },
-  {
-    "name": "Rift Lance",
-    "value": 30000
-  },
-  {
-    "name": "Platinum Amulet",
-    "value": 2500
-  },
-  {
-    "name": "Golden Legs",
-    "value": 30000
-  },
-  {
-    "name": "Magic Plate Armor",
-    "value": 90000
-  },
-  {
-    "name": "Mastermind Shield",
-    "value": 50000
-  },
-  {
-    "name": "Demonrage Sword",
-    "value": 36000
-  },
-  {
-    "name": "Rift Crossbow",
-    "value": 45000
-  },
-  {
-    "name": "Rift Bow",
-    "value": 45000
-  },
-  {
-    "name": "Rift Shield",
-    "value": 50000
-  },
-  {
-    "name": "Demon Shield",
-    "value": 30000
-  },
-  {
-    "name": "Small Diamond",
-    "value": 300
-  },
-  {
-    "name": "Underworld Rod",
-    "value": 4400
-  },
-  {
-    "name": "Wand of Voodoo",
-    "value": 4400
-  },
-  {
-    "name": "Blue Gem",
-    "value": 5000
-  },
-  {
-    "name": "Magma Legs",
-    "value": 11000
-  },
-  {
-    "name": "Nightmare Blade",
-    "value": 35000
-  },
-  {
-    "name": "Abyss Hammer",
-    "value": 20000
-  },
-  {
-    "name": "Steel Boots",
-    "value": 30000
-  },
-  {
-    "name": "Vile Axe",
-    "value": 30000
-  },
-  {
-    "name": "magma boots",
-    "value": 2500
+    "name": "Glacier Robe",
+    "value": "11000"
   },
   {
     "name": "Golden Armor",
-    "value": 20000
+    "value": "20000"
   },
   {
-    "name": "Spellbook of Mind Control",
-    "value": 13000
+    "name": "Goo Shell",
+    "value": "4000"
   },
   {
-    "name": "Skull Helmet",
-    "value": 40000
+    "name": "Hibiscus Dress",
+    "value": "3000"
   },
   {
-    "name": "Heavy Mace",
-    "value": 50000
+    "name": "Lavos Armor",
+    "value": "16000"
   },
   {
-    "name": "Demonbone Amulet",
-    "value": 32000
+    "name": "Leopard Armor",
+    "value": "1000"
   },
   {
-    "name": "Titan Axe",
-    "value": 4000
+    "name": "Lightning Robe",
+    "value": "11000"
   },
   {
-    "name": "Giant Shimmering Pearl",
-    "value": 3000
+    "name": "Magic Plate Armor",
+    "value": "90000"
   },
   {
-    "name": "Pair of Hellflayer Horns",
-    "value": 1300
+    "name": "Magma Coat",
+    "value": "11000"
   },
   {
-    "name": "Gold Ingot",
-    "value": 5000
+    "name": "Mammoth Fur Cape",
+    "value": "6000"
   },
   {
-    "name": "Butcher's Axe",
-    "value": 18000
+    "name": "Paladin Armor",
+    "value": "15000"
   },
   {
-    "name": "Death Ring",
-    "value": 1000
-  },
-  {
-    "name": "Cat's Paw",
-    "value": 2000
-  },
-  {
-    "name": "Orichalcum Pearl",
-    "value": 40
-  },
-  {
-    "name": "Soul Orb",
-    "value": 25
+    "name": "Pirate Shirt",
+    "value": "500"
   },
   {
     "name": "Skullcracker Armor",
-    "value": 18000
+    "value": "18000"
   },
   {
-    "name": "Spellweaver's Robe",
-    "value": 12000
+    "name": "Swamplair Armor",
+    "value": "16000"
   },
   {
-    "name": "Royal Helmet",
-    "value": 30000
+    "name": "Terra Mantle",
+    "value": "11000"
   },
   {
-    "name": "Dragonbone Staff",
-    "value": 3000
+    "name": "Coconut Shoes",
+    "value": "500"
   },
   {
-    "name": "Hardened Bone",
-    "value": 70
+    "name": "Crocodile Boots",
+    "value": "1000"
   },
   {
-    "name": "Unholy Bone",
-    "value": 480
+    "name": "Fur Boots",
+    "value": "2000"
   },
   {
-    "name": "Falcon Crest",
-    "value": 650
-  },
-  {
-    "name": "Spiked Squelcher",
-    "value": 5000
-  },
-  {
-    "name": "Knight Armor",
-    "value": 5000
-  },
-  {
-    "name": "Knight legs",
-    "value": 5000
-  },
-  {
-    "name": "Ring of the Sky",
-    "value": 30000
-  },
-  {
-    "name": "Drakinata",
-    "value": 10000
-  },
-  {
-    "name": "Zaoan Legs",
-    "value": 14000
-  },
-  {
-    "name": "Zaoan Armor",
-    "value": 14000
-  },
-  {
-    "name": "Zaoan Shoes",
-    "value": 5000
-  },
-  {
-    "name": "Tower Shield",
-    "value": 8000
-  },
-  {
-    "name": "Zaoan Halberd",
-    "value": 500
-  },
-  {
-    "name": "Warmaster's Wristguards",
-    "value": 200
-  },
-  {
-    "name": "Bone Shoulderplate",
-    "value": 150
-  },
-  {
-    "name": "Jade Hammer",
-    "value": 25000
-  },
-  {
-    "name": "Berserker",
-    "value": 40000
+    "name": "Glacier Shoes",
+    "value": "2500"
   },
   {
     "name": "Lightning Boots",
-    "value": 2500
+    "value": "2500"
   },
   {
-    "name": "Bonebreaker",
-    "value": 10000
+    "name": "Magma Boots",
+    "value": "2500"
   },
   {
-    "name": "Berserk Potion",
-    "value": 500
+    "name": "Oriental Shoes",
+    "value": "15000"
   },
   {
-    "name": "Iron Ore",
-    "value": 500
+    "name": "Patched Boots",
+    "value": "2000"
   },
   {
-    "name": "War Hammer",
-    "value": 1200
+    "name": "Pirate Boots",
+    "value": "3000"
   },
   {
-    "name": "Noble Axe",
-    "value": 10000
+    "name": "Steel Boots",
+    "value": "30000"
   },
   {
-    "name": "Hammer of Wrath",
-    "value": 30000
+    "name": "Terra Boots",
+    "value": "2500"
   },
   {
-    "name": "Glacier Kilt",
-    "value": 11000
+    "name": "Bandana",
+    "value": "150"
   },
   {
-    "name": "Crab Man Claws",
-    "value": 550
+    "name": "Bonelord Helmet",
+    "value": "7500"
   },
   {
-    "name": "Rhindeer Antlers",
-    "value": 68
+    "name": "Cobra Crown",
+    "value": "50000"
   },
   {
-    "name": "Rainbow Quartz",
-    "value": 500
+    "name": "Devil Helmet",
+    "value": "1000"
   },
   {
-    "name": "Assassin Dagger",
-    "value": 20000
+    "name": "Flower Wreath",
+    "value": "500"
   },
   {
-    "name": "Shadow Sceptre",
-    "value": 10000
+    "name": "Glacier Mask",
+    "value": "2500"
+  },
+  {
+    "name": "Helmet of The Lost",
+    "value": "2000"
+  },
+  {
+    "name": "Krimhorn Helmet",
+    "value": "200"
+  },
+  {
+    "name": "Lightning Headband",
+    "value": "2500"
+  },
+  {
+    "name": "Magma Monocle",
+    "value": "2500"
+  },
+  {
+    "name": "Pirate Hat",
+    "value": "1000"
+  },
+  {
+    "name": "Ragnir Helmet",
+    "value": "400"
+  },
+  {
+    "name": "Skull Helmet",
+    "value": "40000"
+  },
+  {
+    "name": "Terra Hood",
+    "value": "2500"
+  },
+  {
+    "name": "Witch Hat",
+    "value": "5000"
+  },
+  {
+    "name": "Ancient Amulet",
+    "value": "200"
+  },
+  {
+    "name": "Beetle Necklace",
+    "value": "1500"
+  },
+  {
+    "name": "Crystal Necklace",
+    "value": "400"
+  },
+  {
+    "name": "Crystal Ring",
+    "value": "250"
+  },
+  {
+    "name": "Death Ring",
+    "value": "1000"
+  },
+  {
+    "name": "Demonbone Amulet",
+    "value": "32000"
+  },
+  {
+    "name": "Emerald Bangle",
+    "value": "800"
+  },
+  {
+    "name": "Glacier Amulet",
+    "value": "1500"
+  },
+  {
+    "name": "Gold Ring",
+    "value": "8000"
+  },
+  {
+    "name": "Horn (Ring)",
+    "value": "300"
+  },
+  {
+    "name": "Leviathan's Amulet",
+    "value": "3000"
+  },
+  {
+    "name": "Lightning Pendant",
+    "value": "1500"
+  },
+  {
+    "name": "Magma Amulet",
+    "value": "1500"
+  },
+  {
+    "name": "Onyx Pendant",
+    "value": "3500"
+  },
+  {
+    "name": "Platinum Amulet",
+    "value": "2500"
+  },
+  {
+    "name": "Ring of the Sky",
+    "value": "30000"
+  },
+  {
+    "name": "Ruby Necklace",
+    "value": "2000"
+  },
+  {
+    "name": "Sacred Tree Amulet",
+    "value": "3000"
+  },
+  {
+    "name": "Scarab Amulet",
+    "value": "200"
+  },
+  {
+    "name": "Shockwave Amulet",
+    "value": "3000"
   },
   {
     "name": "Silver Brooch",
-    "value": 150
+    "value": "150"
+  },
+  {
+    "name": "Terra Amulet",
+    "value": "1500"
+  },
+  {
+    "name": "Glacier Kilt",
+    "value": "11000"
+  },
+  {
+    "name": "Golden Legs",
+    "value": "30000"
+  },
+  {
+    "name": "Leaf Legs",
+    "value": "500"
+  },
+  {
+    "name": "Lightning Legs",
+    "value": "11000"
+  },
+  {
+    "name": "Magma Legs",
+    "value": "11000"
+  },
+  {
+    "name": "Mammoth Fur Shorts",
+    "value": "850"
+  },
+  {
+    "name": "Pirate Knee Breeches",
+    "value": "200"
+  },
+  {
+    "name": "Terra Legs",
+    "value": "11000"
+  },
+  {
+    "name": "Doll",
+    "value": "200"
+  },
+  {
+    "name": "Hieroglyph Banner",
+    "value": "500"
+  },
+  {
+    "name": "Light Shovel",
+    "value": "300"
+  },
+  {
+    "name": "Model Ship",
+    "value": "1000"
+  },
+  {
+    "name": "Pharaoh Banner",
+    "value": "1000"
+  },
+  {
+    "name": "Pirate Voodoo Doll",
+    "value": "500"
+  },
+  {
+    "name": "Voodoo Doll",
+    "value": "400"
+  },
+  {
+    "name": "War Horn",
+    "value": "8000"
+  },
+  {
+    "name": "Bone Shield",
+    "value": "80"
+  },
+  {
+    "name": "Castle Shield",
+    "value": "5000"
+  },
+  {
+    "name": "Dark Shield",
+    "value": "400"
+  },
+  {
+    "name": "Demon Shield",
+    "value": "30000"
+  },
+  {
+    "name": "Griffin Shield",
+    "value": "3000"
+  },
+  {
+    "name": "Mastermind Shield",
+    "value": "50000"
+  },
+  {
+    "name": "Medusa Shield",
+    "value": "9000"
+  },
+  {
+    "name": "Norse Shield",
+    "value": "1500"
+  },
+  {
+    "name": "Rift Shield",
+    "value": "50000"
+  },
+  {
+    "name": "Scarab Shield",
+    "value": "2000"
+  },
+  {
+    "name": "Tempest Shield",
+    "value": "35000"
+  },
+  {
+    "name": "Tortoise Shield",
+    "value": "150"
+  },
+  {
+    "name": "Abyss Hammer",
+    "value": "20000"
+  },
+  {
+    "name": "Amber Staff",
+    "value": "8000"
+  },
+  {
+    "name": "Assassin Dagger",
+    "value": "20000"
+  },
+  {
+    "name": "Beastslayer Axe",
+    "value": "1500"
+  },
+  {
+    "name": "Berserker",
+    "value": "40000"
+  },
+  {
+    "name": "Blacksteel Sword",
+    "value": "6000"
+  },
+  {
+    "name": "Blessed Sceptre",
+    "value": "40000"
+  },
+  {
+    "name": "Brutetamer's Staff",
+    "value": "1500"
+  },
+  {
+    "name": "Chain Bolter",
+    "value": "40000"
+  },
+  {
+    "name": "Chaos Mace",
+    "value": "9000"
+  },
+  {
+    "name": "Composite Hornbow",
+    "value": "25000"
+  },
+  {
+    "name": "Cranial Basher",
+    "value": "30000"
+  },
+  {
+    "name": "Crystal Crossbow",
+    "value": "35000"
+  },
+  {
+    "name": "Crystal Mace",
+    "value": "12000"
+  },
+  {
+    "name": "Crystal Sword",
+    "value": "600"
+  },
+  {
+    "name": "Daramian Mace",
+    "value": "110"
+  },
+  {
+    "name": "Daramian Waraxe",
+    "value": "1000"
+  },
+  {
+    "name": "Demonrage Sword",
+    "value": "36000"
+  },
+  {
+    "name": "Diamond Sceptre",
+    "value": "3000"
+  },
+  {
+    "name": "Djinn Blade",
+    "value": "15000"
+  },
+  {
+    "name": "Dragon Slayer",
+    "value": "15000"
+  },
+  {
+    "name": "Dragonbone Staff",
+    "value": "3000"
+  },
+  {
+    "name": "Dreaded Cleaver",
+    "value": "10000"
+  },
+  {
+    "name": "Elvish Bow",
+    "value": "2000"
+  },
+  {
+    "name": "Epee",
+    "value": "8000"
+  },
+  {
+    "name": "Furry Club",
+    "value": "1000"
+  },
+  {
+    "name": "Guardian Halberd",
+    "value": "11000"
+  },
+  {
+    "name": "Hammer of Wrath",
+    "value": "30000"
+  },
+  {
+    "name": "Headchopper",
+    "value": "6000"
+  },
+  {
+    "name": "Heavy Mace",
+    "value": "50000"
+  },
+  {
+    "name": "Heavy Machete",
+    "value": "90"
+  },
+  {
+    "name": "Heavy Trident",
+    "value": "2000"
+  },
+  {
+    "name": "Heroic Axe",
+    "value": "30000"
+  },
+  {
+    "name": "Jade Hammer",
+    "value": "25000"
+  },
+  {
+    "name": "Lunar Staff",
+    "value": "5000"
+  },
+  {
+    "name": "Mammoth Whopper",
+    "value": "300"
+  },
+  {
+    "name": "Mercenary Sword",
+    "value": "12000"
+  },
+  {
+    "name": "Mycological Bow",
+    "value": "35000"
+  },
+  {
+    "name": "Mystic Blade",
+    "value": "30000"
+  },
+  {
+    "name": "Naginata",
+    "value": "2000"
+  },
+  {
+    "name": "Nightmare Blade",
+    "value": "35000"
+  },
+  {
+    "name": "Noble Axe",
+    "value": "10000"
+  },
+  {
+    "name": "Orcish Maul",
+    "value": "6000"
+  },
+  {
+    "name": "Pair of Iron Fists",
+    "value": "4000"
+  },
+  {
+    "name": "Pharaoh Sword",
+    "value": "23000"
   },
   {
     "name": "Relic Sword",
-    "value": 25000
+    "value": "25000"
   },
   {
-    "name": "Wand of Cosmic Energy",
-    "value": 2000
+    "name": "Rift Bow",
+    "value": "45000"
   },
   {
-    "name": "Lion Figurine",
-    "value": 10000
+    "name": "Rift Crossbow",
+    "value": "45000"
   },
   {
-    "name": "Crown Helmet",
-    "value": 2500
+    "name": "Rift Lance",
+    "value": "30000"
   },
   {
-    "name": "Crown Armor",
-    "value": 12000
+    "name": "Royal Axe",
+    "value": "40000"
+  },
+  {
+    "name": "Ruthless Axe",
+    "value": "45000"
+  },
+  {
+    "name": "Sapphire Hammer",
+    "value": "7000"
+  },
+  {
+    "name": "Silver Dagger",
+    "value": "500"
+  },
+  {
+    "name": "Spiked Squelcher",
+    "value": "5000"
+  },
+  {
+    "name": "Taurus Mace",
+    "value": "500"
+  },
+  {
+    "name": "The Justice Seeker",
+    "value": "40000"
+  },
+  {
+    "name": "Vile Axe",
+    "value": "30000"
+  },
+  {
+    "name": "War Axe",
+    "value": "12000"
+  },
+  {
+    "name": "Wyvern Fang",
+    "value": "1500"
+  },
+  {
+    "name": "Abomination's Eye",
+    "value": "650000"
+  },
+  {
+    "name": "Abomination's Tail",
+    "value": "700000"
+  },
+  {
+    "name": "Abomination's Tongue",
+    "value": "950000"
+  },
+  {
+    "name": "Acorn",
+    "value": "10"
+  },
+  {
+    "name": "Afflicted Strider Head",
+    "value": "900"
+  },
+  {
+    "name": "Afflicted Strider Worms",
+    "value": "500"
+  },
+  {
+    "name": "Alptramun's Toothbrush",
+    "value": "270000"
+  },
+  {
+    "name": "Ancient Belt Buckle",
+    "value": "260"
+  },
+  {
+    "name": "Ancient Liche Bone",
+    "value": "28000"
+  },
+  {
+    "name": "Angel Figurine",
+    "value": "36000"
+  },
+  {
+    "name": "Antlers",
+    "value": "50"
+  },
+  {
+    "name": "Ape Fur",
+    "value": "120"
+  },
+  {
+    "name": "Apron",
+    "value": "1300"
+  },
+  {
+    "name": "Atab's Mitmah Helmet",
+    "value": "580"
+  },
+  {
+    "name": "Arbaziloth Shoulder Piece",
+    "value": "450000"
+  },
+  {
+    "name": "Axe of Sir Leonard",
+    "value": "49000"
+  },
+  {
+    "name": "Badger Fur",
+    "value": "15"
+  },
+  {
+    "name": "Bakragore's Amalgamation",
+    "value": "2000000"
+  },
+  {
+    "name": "Bamboo Stick",
+    "value": "30"
+  },
+  {
+    "name": "Banana Sash",
+    "value": "55"
+  },
+  {
+    "name": "Basalt Fetish",
+    "value": "210"
+  },
+  {
+    "name": "Basalt Figurine",
+    "value": "160"
+  },
+  {
+    "name": "Bashmu Fang",
+    "value": "600"
+  },
+  {
+    "name": "Bashmu Feather",
+    "value": "350"
+  },
+  {
+    "name": "Bashmu Tongue",
+    "value": "400"
+  },
+  {
+    "name": "Bat Decoration",
+    "value": "2000"
+  },
+  {
+    "name": "Bat Wing",
+    "value": "50"
+  },
+  {
+    "name": "Bear Paw",
+    "value": "100"
+  },
+  {
+    "name": "Beast's Nightmare-Cushion",
+    "value": "630000"
+  },
+  {
+    "name": "Bed of Nails",
+    "value": "500"
+  },
+  {
+    "name": "Beer Tap",
+    "value": "50"
+  },
+  {
+    "name": "Beetle Carapace",
+    "value": "200"
+  },
+  {
+    "name": "Behemoth Claw",
+    "value": "2000"
+  },
+  {
+    "name": "Black Hood",
+    "value": "190"
+  },
+  {
+    "name": "Black Wool",
+    "value": "300"
+  },
+  {
+    "name": "Blazing Bone",
+    "value": "610"
+  },
+  {
+    "name": "Blemished Spawn Abdomen",
+    "value": "550"
+  },
+  {
+    "name": "Blemished Spawn Head",
+    "value": "800"
+  },
+  {
+    "name": "Blemished Spawn Tail",
+    "value": "1000"
+  },
+  {
+    "name": "Bloated Maggot",
+    "value": "5200"
+  },
+  {
+    "name": "Blood Preservation",
+    "value": "320"
+  },
+  {
+    "name": "Blood Tincture in a Vial",
+    "value": "360"
+  },
+  {
+    "name": "Blood Amulet",
+    "value": "1230"
+  },
+  {
+    "name": "Blood Crown",
+    "value": "116000"
+  },
+  {
+    "name": "Blood Hood",
+    "value": "1550"
+  },
+  {
+    "name": "Blood Sceptre",
+    "value": "178000"
+  },
+  {
+    "name": "Bloodshot Giant Eye",
+    "value": "1820"
+  },
+  {
+    "name": "Bloodstained Scythe",
+    "value": "4200"
+  },
+  {
+    "name": "Bloody Dwarven Beard",
+    "value": "110"
+  },
+  {
+    "name": "Bloody Pincers",
+    "value": "100"
+  },
+  {
+    "name": "Bloody Tears",
+    "value": "70000"
+  },
+  {
+    "name": "Blue Glass Plate",
+    "value": "60"
+  },
+  {
+    "name": "Blue Goanna Scale",
+    "value": "230"
+  },
+  {
+    "name": "Blue Piece of Cloth",
+    "value": "200"
+  },
+  {
+    "name": "Boar Man Hoof",
+    "value": "600"
+  },
+  {
+    "name": "Boggy Dreads",
+    "value": "200"
+  },
+  {
+    "name": "Bola",
+    "value": "35"
+  },
+  {
+    "name": "Bone Fetish",
+    "value": "150"
+  },
+  {
+    "name": "Bone Shoulderplate",
+    "value": "150"
+  },
+  {
+    "name": "Bone Toothpick",
+    "value": "150"
+  },
+  {
+    "name": "Bone Fibula",
+    "value": "580"
+  },
+  {
+    "name": "Bone Rattle",
+    "value": "790"
+  },
+  {
+    "name": "Bonecarving Knife",
+    "value": "190"
+  },
+  {
+    "name": "Bonelord Eye",
+    "value": "80"
+  },
+  {
+    "name": "Bones of Zorvorax",
+    "value": "10000"
+  },
+  {
+    "name": "Bony Tail",
+    "value": "210"
+  },
+  {
+    "name": "Book of Necromantic Rituals",
+    "value": "180"
+  },
+  {
+    "name": "Book of Prayers",
+    "value": "120"
+  },
+  {
+    "name": "Book Page",
+    "value": "640"
+  },
+  {
+    "name": "Book with a Dragon",
+    "value": "1800"
+  },
+  {
+    "name": "Book with an Hourglass",
+    "value": "1450"
+  },
+  {
+    "name": "Bowl of Terror Sweat",
+    "value": "500"
+  },
+  {
+    "name": "Brain Head's Giant Neuron",
+    "value": "100000"
+  },
+  {
+    "name": "Brain Head's Left Hemisphere",
+    "value": "90000"
+  },
+  {
+    "name": "Brain Head's Right Hemisphere",
+    "value": "50000"
+  },
+  {
+    "name": "Brainstealer's Brain",
+    "value": "300000"
+  },
+  {
+    "name": "Brainstealer's Brainwave",
+    "value": "440000"
+  },
+  {
+    "name": "Brainstealer's Tissue",
+    "value": "240000"
+  },
+  {
+    "name": "Bright Bell",
+    "value": "220"
+  },
+  {
+    "name": "Brimstone Fangs",
+    "value": "380"
+  },
+  {
+    "name": "Brimstone Shell",
+    "value": "210"
+  },
+  {
+    "name": "Brinebrute Claw",
+    "value": "2600"
+  },
+  {
+    "name": "Broodrider Saddle",
+    "value": "2800"
+  },
+  {
+    "name": "Broken Crossbow",
+    "value": "30"
+  },
+  {
+    "name": "Broken Draken Mail",
+    "value": "340"
+  },
+  {
+    "name": "Broken Halberd",
+    "value": "100"
+  },
+  {
+    "name": "Broken Helmet",
+    "value": "20"
+  },
+  {
+    "name": "Broken Iks Cuirass",
+    "value": "640"
+  },
+  {
+    "name": "Broken Iks Faulds",
+    "value": "530"
+  },
+  {
+    "name": "Broken Iks Headpiece",
+    "value": "560"
+  },
+  {
+    "name": "Broken Iks Sandals",
+    "value": "440"
+  },
+  {
+    "name": "Broken Iks Spear",
+    "value": "685"
+  },
+  {
+    "name": "Broken Key Ring",
+    "value": "8000"
+  },
+  {
+    "name": "Broken Longbow",
+    "value": "130"
+  },
+  {
+    "name": "Broken Macuahuitl",
+    "value": "1000"
+  },
+  {
+    "name": "Broken Mitmah Chestplate",
+    "value": "85000"
+  },
+  {
+    "name": "Broken Mitmah Necklace",
+    "value": "210"
+  },
+  {
+    "name": "Broken Ring of Ending",
+    "value": "4000"
+  },
+  {
+    "name": "Broken Shamanic Staff",
+    "value": "35"
+  },
+  {
+    "name": "Broken Slicer",
+    "value": "120"
+  },
+  {
+    "name": "Broken Throwing Axe",
+    "value": "230"
+  },
+  {
+    "name": "Broken Visor",
+    "value": "1900"
+  },
+  {
+    "name": "Brooch of Embracement",
+    "value": "14000"
+  },
+  {
+    "name": "Brown Piece of Cloth",
+    "value": "100"
+  },
+  {
+    "name": "Bulltaur Armor Scrap",
+    "value": "480"
+  },
+  {
+    "name": "Bulltaur Hoof",
+    "value": "540"
+  },
+  {
+    "name": "Bulltaur Horn",
+    "value": "385"
+  },
+  {
+    "name": "Bunch of Troll Hair",
+    "value": "30"
+  },
+  {
+    "name": "Bundle of Cursed Straw",
+    "value": "800"
+  },
+  {
+    "name": "Capricious Heart",
+    "value": "2100"
+  },
+  {
+    "name": "Capricious Robe",
+    "value": "1200"
+  },
+  {
+    "name": "Carniphila Seeds",
+    "value": "50"
+  },
+  {
+    "name": "Carnisylvan Bark",
+    "value": "230"
+  },
+  {
+    "name": "Carnisylvan Finger",
+    "value": "250"
+  },
+  {
+    "name": "Carnivostrich Feather",
+    "value": "630"
+  },
+  {
+    "name": "Carrion Worm Fang",
+    "value": "35"
+  },
+  {
+    "name": "Cat's Paw",
+    "value": "2000"
+  },
+  {
+    "name": "Cave Chimera Head",
+    "value": "250"
+  },
+  {
+    "name": "Cave Chimera Leg",
+    "value": "650"
+  },
+  {
+    "name": "Cave Devourer Eyes",
+    "value": "550"
+  },
+  {
+    "name": "Cave Devourer Legs",
+    "value": "350"
+  },
+  {
+    "name": "Cave Devourer Maw",
+    "value": "600"
+  },
+  {
+    "name": "Centipede Leg",
+    "value": "28"
+  },
+  {
+    "name": "Chagorz Igneous Obsidian",
+    "value": "1100000"
+  },
+  {
+    "name": "Charred Mask",
+    "value": "1500"
+  },
+  {
+    "name": "Chasm Spawn Abdomen",
+    "value": "240"
+  },
+  {
+    "name": "Chasm Spawn Head",
+    "value": "850"
+  },
+  {
+    "name": "Chasm Spawn Tail",
+    "value": "120"
+  },
+  {
+    "name": "Chain Leash",
+    "value": "970"
+  },
+  {
+    "name": "Cheese Cutter",
+    "value": "50"
+  },
+  {
+    "name": "Cheesy Figurine",
+    "value": "150"
+  },
+  {
+    "name": "Cheesy Membership Card",
+    "value": "120000"
+  },
+  {
+    "name": "Chicken Feather",
+    "value": "30"
+  },
+  {
+    "name": "Chitinous Mouth (Baron from Below)",
+    "value": "10000"
+  },
+  {
+    "name": "Chitinous Mouth (Count of the Core)",
+    "value": "10000"
+  },
+  {
+    "name": "Cliff Strider Claw",
+    "value": "800"
+  },
+  {
+    "name": "Closed Pocket Sundial",
+    "value": "5000"
+  },
+  {
+    "name": "Cobra Crest",
+    "value": "650"
+  },
+  {
+    "name": "Cobra Tongue",
+    "value": "15"
+  },
+  {
+    "name": "Colourful Feather",
+    "value": "110"
+  },
+  {
+    "name": "Colourful Feathers",
+    "value": "400"
+  },
+  {
+    "name": "Colourful Quill",
+    "value": "36000"
+  },
+  {
+    "name": "Colourful Snail Shell",
+    "value": "250"
+  },
+  {
+    "name": "Compass",
+    "value": "45"
+  },
+  {
+    "name": "Compound Eye",
+    "value": "150"
+  },
+  {
+    "name": "Condensed Energy",
+    "value": "260"
+  },
+  {
+    "name": "Coral Branch",
+    "value": "360"
+  },
+  {
+    "name": "Corrupt Naga Scales",
+    "value": "570"
+  },
+  {
+    "name": "Corrupted Flag",
+    "value": "700"
+  },
+  {
+    "name": "Countess Sorrow's Frozen Tear",
+    "value": "50000"
+  },
+  {
+    "name": "Cow Bell",
+    "value": "120"
+  },
+  {
+    "name": "Cookbook (Book World)",
+    "value": "870"
+  },
+  {
+    "name": "Crab Man Claws",
+    "value": "550"
+  },
+  {
+    "name": "Crab Pincers",
+    "value": "35"
+  },
+  {
+    "name": "Cracked Alabaster Vase",
+    "value": "180"
+  },
+  {
+    "name": "Crawler Head Plating",
+    "value": "210"
+  },
+  {
+    "name": "Crawler's Essence",
+    "value": "3700"
+  },
+  {
+    "name": "Crown (Cloak Of Terror)",
+    "value": "2700"
+  },
+  {
+    "name": "Cruelty's Chest",
+    "value": "720000"
+  },
+  {
+    "name": "Cruelty's Claw",
+    "value": "640000"
+  },
+  {
+    "name": "Crystal Bone",
+    "value": "250"
+  },
+  {
+    "name": "Crystal of the Mitmah",
+    "value": "280"
+  },
+  {
+    "name": "Crystallized Anger",
+    "value": "400"
+  },
+  {
+    "name": "Crystallized Blood",
+    "value": "270000"
+  },
+  {
+    "name": "Cultish Mask",
+    "value": "280"
+  },
+  {
+    "name": "Cultish Robe",
+    "value": "150"
+  },
+  {
+    "name": "Cultish Symbol",
+    "value": "500"
+  },
+  {
+    "name": "Curious Matter",
+    "value": "430"
+  },
+  {
+    "name": "Curl of Hair",
+    "value": "320000"
+  },
+  {
+    "name": "Cursed Bone",
+    "value": "6000"
+  },
+  {
+    "name": "Cursed Shoulder Spikes",
+    "value": "320"
+  },
+  {
+    "name": "Cyclops Toe",
+    "value": "55"
+  },
+  {
+    "name": "Damaged Armor Plates",
+    "value": "280"
+  },
+  {
+    "name": "Damaged Worm Head",
+    "value": "8000"
+  },
+  {
+    "name": "Damselfly Eye",
+    "value": "25"
+  },
+  {
+    "name": "Damselfly Wing",
+    "value": "20"
+  },
+  {
+    "name": "Dandelion Seeds",
+    "value": "200"
+  },
+  {
+    "name": "Dangerous Proto Matter",
+    "value": "300"
+  },
+  {
+    "name": "Dark Bell",
+    "value": "250"
+  },
+  {
+    "name": "Dark Bell (Sino)",
+    "value": "310000"
+  },
+  {
+    "name": "Dark Obsidian Splinter",
+    "value": "4400"
+  },
+  {
+    "name": "Dark Rosary",
+    "value": "48"
+  },
+  {
+    "name": "Darklight Basalt Chunk",
+    "value": "3800"
+  },
+  {
+    "name": "Darklight Core (Item)",
+    "value": "4100"
+  },
+  {
+    "name": "Darklight Figurine",
+    "value": "3400000"
+  },
+  {
+    "name": "Darklight Matter (Item)",
+    "value": "5500"
+  },
+  {
+    "name": "Dead Weight",
+    "value": "450"
+  },
+  {
+    "name": "Deepling Breaktime Snack",
+    "value": "90"
+  },
+  {
+    "name": "Deepling Claw",
+    "value": "430"
+  },
+  {
+    "name": "Deepling Guard Belt Buckle",
+    "value": "230"
+  },
+  {
+    "name": "Deepling Ridge",
+    "value": "360"
+  },
+  {
+    "name": "Deepling Scales",
+    "value": "80"
+  },
+  {
+    "name": "Deepling Warts",
+    "value": "180"
+  },
+  {
+    "name": "Deeptags",
+    "value": "290"
+  },
+  {
+    "name": "Deepworm Jaws",
+    "value": "500"
+  },
+  {
+    "name": "Deepworm Spike Roots",
+    "value": "650"
+  },
+  {
+    "name": "Deepworm Spikes",
+    "value": "800"
+  },
+  {
+    "name": "Demon Dust",
+    "value": "300"
+  },
+  {
+    "name": "Demon Horn",
+    "value": "1000"
+  },
+  {
+    "name": "Demonic Finger",
+    "value": "1000"
+  },
+  {
+    "name": "Demonic Skeletal Hand",
+    "value": "80"
+  },
+  {
+    "name": "Diabolic Skull",
+    "value": "19000"
+  },
+  {
+    "name": "Diremaw Brainpan",
+    "value": "350"
+  },
+  {
+    "name": "Diremaw Legs",
+    "value": "270"
+  },
+  {
+    "name": "Dirty Turban",
+    "value": "120"
+  },
+  {
+    "name": "Distorted Heart",
+    "value": "2100"
+  },
+  {
+    "name": "Distorted Robe",
+    "value": "1200"
+  },
+  {
+    "name": "Downy Feather",
+    "value": "20"
+  },
+  {
+    "name": "Dowser",
+    "value": "35"
+  },
+  {
+    "name": "Dracola's Eye",
+    "value": "50000"
+  },
+  {
+    "name": "Dracoyle Statue",
+    "value": "5000"
+  },
+  {
+    "name": "Dragolisk Eye",
+    "value": "690"
+  },
+  {
+    "name": "Dragolisk Poison Gland",
+    "value": "475"
+  },
+  {
+    "name": "Dragon Blood",
+    "value": "700"
+  },
+  {
+    "name": "Dragon Claw",
+    "value": "8000"
+  },
+  {
+    "name": "Dragon Priest's Wandtip",
+    "value": "175"
+  },
+  {
+    "name": "Dragon Tongue",
+    "value": "550"
+  },
+  {
+    "name": "Dragon's Tail",
+    "value": "100"
+  },
+  {
+    "name": "Draken Sulphur",
+    "value": "550"
+  },
+  {
+    "name": "Draken Wristbands",
+    "value": "430"
+  },
+  {
+    "name": "Dream Essence Egg",
+    "value": "205"
+  },
+  {
+    "name": "Dung Ball",
+    "value": "130"
+  },
+  {
+    "name": "Earflap",
+    "value": "40"
+  },
+  {
+    "name": "Elder Bonelord Tentacle",
+    "value": "150"
+  },
+  {
+    "name": "Elven Astral Observer",
+    "value": "90"
+  },
+  {
+    "name": "Elven Hoof",
+    "value": "115"
+  },
+  {
+    "name": "Elven Scouting Glass",
+    "value": "50"
+  },
+  {
+    "name": "Elvish Talisman",
+    "value": "45"
+  },
+  {
+    "name": "Empty Honey Glass",
+    "value": "270"
+  },
+  {
+    "name": "Enchanted Chicken Wing",
+    "value": "20000"
+  },
+  {
+    "name": "Encrypted Notes",
+    "value": "620"
+  },
+  {
+    "name": "Energy Ball",
+    "value": "300"
+  },
+  {
+    "name": "Energy Vein",
+    "value": "270"
+  },
+  {
+    "name": "Ensouled Essence",
+    "value": "820"
+  },
+  {
+    "name": "Essence of a Bad Dream",
+    "value": "360"
+  },
+  {
+    "name": "Exalted Seal",
+    "value": "190000"
+  },
+  {
+    "name": "Eye of a Deepling",
+    "value": "150"
+  },
+  {
+    "name": "Eye of a Weeper",
+    "value": "650"
+  },
+  {
+    "name": "Eye of Corruption",
+    "value": "390"
+  },
+  {
+    "name": "Eyeless Devourer Legs",
+    "value": "650"
+  },
+  {
+    "name": "Eyeless Devourer Maw",
+    "value": "420"
+  },
+  {
+    "name": "Eyeless Devourer Tongue",
+    "value": "900"
+  },
+  {
+    "name": "Fafnar Symbol",
+    "value": "950"
+  },
+  {
+    "name": "Fairy Wings",
+    "value": "200"
+  },
+  {
+    "name": "Falcon Crest",
+    "value": "650"
+  },
+  {
+    "name": "Fern",
+    "value": "20"
+  },
+  {
+    "name": "Fiery Heart",
+    "value": "375"
+  },
+  {
+    "name": "Fig Leaf",
+    "value": "200"
+  },
+  {
+    "name": "Figurine of Cruelty",
+    "value": "3100000"
+  },
+  {
+    "name": "Figurine of Greed",
+    "value": "2900000"
+  },
+  {
+    "name": "Figurine of Hatred",
+    "value": "2700000"
+  },
+  {
+    "name": "Figurine of Malice",
+    "value": "2800000"
+  },
+  {
+    "name": "Figurine of Megalomania",
+    "value": "5000000"
+  },
+  {
+    "name": "Figurine of Spite",
+    "value": "3000000"
+  },
+  {
+    "name": "Fir Cone",
+    "value": "25"
+  },
+  {
+    "name": "Fish Fin",
+    "value": "150"
+  },
+  {
+    "name": "Flask of Embalming Fluid",
+    "value": "30"
+  },
+  {
+    "name": "Flask of Warrior's Sweat",
+    "value": "10000"
+  },
+  {
+    "name": "Flotsam",
+    "value": "330"
+  },
+  {
+    "name": "Fox Paw",
+    "value": "100"
+  },
+  {
+    "name": "Frazzle Skin",
+    "value": "400"
+  },
+  {
+    "name": "Frazzle Tongue",
+    "value": "700"
+  },
+  {
+    "name": "Frost Giant Pelt",
+    "value": "160"
+  },
+  {
+    "name": "Frosty Ear of a Troll",
+    "value": "30"
+  },
+  {
+    "name": "Frosty Heart",
+    "value": "280"
+  },
+  {
+    "name": "Frozen Lightning",
+    "value": "270"
+  },
+  {
+    "name": "Fur Shred",
+    "value": "200"
+  },
+  {
+    "name": "Gauze Bandage",
+    "value": "90"
+  },
+  {
+    "name": "Geomancer's Robe",
+    "value": "80"
+  },
+  {
+    "name": "Geomancer's Staff",
+    "value": "120"
+  },
+  {
+    "name": "Ghastly Dragon Head",
+    "value": "700"
+  },
+  {
+    "name": "Ghostly Tissue",
+    "value": "90"
+  },
+  {
+    "name": "Ghoul Snack",
+    "value": "60"
+  },
+  {
+    "name": "Giant Eye",
+    "value": "380"
+  },
+  {
+    "name": "Giant Tentacle",
+    "value": "10000"
+  },
+  {
+    "name": "Girlish Hair Decoration",
+    "value": "30"
+  },
+  {
+    "name": "Girtablilu Warrior Carapace",
+    "value": "520"
+  },
+  {
+    "name": "Gland",
+    "value": "500"
+  },
+  {
+    "name": "Glistening Bone",
+    "value": "250"
+  },
+  {
+    "name": "Glob of Acid Slime",
+    "value": "25"
+  },
+  {
+    "name": "Glob of Mercury",
+    "value": "20"
+  },
+  {
+    "name": "Glob of Tar",
+    "value": "30"
+  },
+  {
+    "name": "Gloom Wolf Fur",
+    "value": "70"
+  },
+  {
+    "name": "Glowing Rune",
+    "value": "350"
+  },
+  {
+    "name": "Goanna Claw",
+    "value": "260"
+  },
+  {
+    "name": "Goanna Meat",
+    "value": "190"
+  },
+  {
+    "name": "Goblet of Gloom",
+    "value": "12000"
+  },
+  {
+    "name": "Goblin Ear",
+    "value": "20"
+  },
+  {
+    "name": "Gold Tooth",
+    "value": "120"
+  },
+  {
+    "name": "Gold-Brocaded Cloth",
+    "value": "175"
+  },
+  {
+    "name": "Gold-Scaled Sentinel",
+    "value": "380000"
+  },
+  {
+    "name": "Golden Brush",
+    "value": "250"
+  },
+  {
+    "name": "Golden Lotus Brooch",
+    "value": "270"
+  },
+  {
+    "name": "Golden Mask",
+    "value": "38000"
+  },
+  {
+    "name": "Golden Sun Coin",
+    "value": "11000"
+  },
+  {
+    "name": "Golden Tiger Coin",
+    "value": "11000"
+  },
+  {
+    "name": "Gorger Antlers",
+    "value": "2250"
+  },
+  {
+    "name": "Goosebump Leather",
+    "value": "650"
+  },
+  {
+    "name": "Grant of Arms",
+    "value": "950"
+  },
+  {
+    "name": "Grappling Hook (Rascacoon)",
+    "value": "150"
+  },
+  {
+    "name": "Greed's Arm",
+    "value": "950000"
+  },
+  {
+    "name": "Green Bandage",
+    "value": "180"
+  },
+  {
+    "name": "Green Dragon Leather",
+    "value": "100"
+  },
+  {
+    "name": "Green Dragon Scale",
+    "value": "100"
+  },
+  {
+    "name": "Green Glass Plate",
+    "value": "180"
+  },
+  {
+    "name": "Green Piece of Cloth",
+    "value": "200"
+  },
+  {
+    "name": "Grimace",
+    "value": "120000"
+  },
+  {
+    "name": "Gruesome Fan",
+    "value": "15000"
+  },
+  {
+    "name": "Guidebook",
+    "value": "200"
+  },
+  {
+    "name": "Hair of a Banshee",
+    "value": "350"
+  },
+  {
+    "name": "Half-Digested Piece of Meat",
+    "value": "55"
+  },
+  {
+    "name": "Half-Digested Stones",
+    "value": "40"
+  },
+  {
+    "name": "Half-Eaten Brain",
+    "value": "85"
+  },
+  {
+    "name": "Hand (Brachiodemon)",
+    "value": "1450"
+  },
+  {
+    "name": "Hardened Bone",
+    "value": "70"
+  },
+  {
+    "name": "Harpoon of a Giant Snail",
+    "value": "15000"
+  },
+  {
+    "name": "Harpy Feathers",
+    "value": "730"
+  },
+  {
+    "name": "Hatched Rorc Egg",
+    "value": "30"
+  },
+  {
+    "name": "Haunted Piece of Wood",
+    "value": "115"
+  },
+  {
+    "name": "Hazardous Heart",
+    "value": "2100"
+  },
+  {
+    "name": "Hazardous Robe",
+    "value": "1200"
+  },
+  {
+    "name": "Head (Brachiodemon)",
+    "value": "3500"
+  },
+  {
+    "name": "Head (Many Faces)",
+    "value": "3200"
+  },
+  {
+    "name": "Heaven Blossom",
+    "value": "50"
+  },
+  {
+    "name": "Heart Amphora",
+    "value": "930"
+  },
+  {
+    "name": "Helmet of Sir Leonard",
+    "value": "46000"
+  },
+  {
+    "name": "Hellhound Slobber",
+    "value": "500"
+  },
+  {
+    "name": "Hellhunter Eye",
+    "value": "2950"
+  },
+  {
+    "name": "Hellspawn Tail",
+    "value": "475"
+  },
+  {
+    "name": "Hemp Rope",
+    "value": "350"
+  },
+  {
+    "name": "Hideous Chunk",
+    "value": "510"
+  },
+  {
+    "name": "High Guard Flag",
+    "value": "550"
+  },
+  {
+    "name": "High Guard Shoulderplates",
+    "value": "130"
+  },
+  {
+    "name": "Holy Ash",
+    "value": "160"
+  },
+  {
+    "name": "Holy Orchid",
+    "value": "90"
+  },
+  {
+    "name": "Honeycomb",
+    "value": "40"
+  },
+  {
+    "name": "Horn of Kalyassa",
+    "value": "10000"
+  },
+  {
+    "name": "Horoscope",
+    "value": "40"
+  },
+  {
+    "name": "Huge Shell",
+    "value": "15000"
+  },
+  {
+    "name": "Huge Spiky Snail Shell",
+    "value": "8000"
+  },
+  {
+    "name": "Human Teeth",
+    "value": "2000"
+  },
+  {
+    "name": "Humongous Chunk",
+    "value": "540"
+  },
+  {
+    "name": "Hunter's Quiver",
+    "value": "80"
+  },
+  {
+    "name": "Hydra Head",
+    "value": "600"
+  },
+  {
+    "name": "Hydrophytes",
+    "value": "220"
+  },
+  {
+    "name": "Ice Flower",
+    "value": "370"
+  },
+  {
+    "name": "Ichgahal's Fungal Infestation",
+    "value": "900000"
+  },
+  {
+    "name": "Idol of the Forge",
+    "value": "950"
+  },
+  {
+    "name": "Incantation Notes",
+    "value": "90"
+  },
+  {
+    "name": "Infernal Heart",
+    "value": "2100"
+  },
+  {
+    "name": "Infernal Robe",
+    "value": "1200"
+  },
+  {
+    "name": "Infernoid Ember",
+    "value": "160"
+  },
+  {
+    "name": "Inkwell (Black)",
+    "value": "720"
+  },
+  {
+    "name": "Instable Proto Matter",
+    "value": "300"
+  },
+  {
+    "name": "Iron Ore",
+    "value": "500"
   },
   {
     "name": "Ivory Carving",
-    "value": 300
+    "value": "300"
   },
   {
-    "name": "Ankh",
-    "value": 100
+    "name": "Ivory Comb",
+    "value": "8000"
   },
   {
-    "name": "Serpent Sword",
-    "value": 900
+    "name": "Izcandar's Snow Globe",
+    "value": "180000"
   },
   {
-    "name": "Black Pearl",
-    "value": 280
+    "name": "Izcandar's Sundial",
+    "value": "225000"
   },
   {
-    "name": "Werehyaena Trophy",
-    "value": 12000
+    "name": "Jagged Sickle",
+    "value": "150000"
   },
   {
-    "name": "Werehyaena Talisman",
-    "value": 350
+    "name": "Jaws",
+    "value": "3900"
+  },
+  {
+    "name": "Jewelled Belt",
+    "value": "180"
+  },
+  {
+    "name": "Jungle Moa Claw",
+    "value": "160"
+  },
+  {
+    "name": "Jungle Moa Egg",
+    "value": "250"
+  },
+  {
+    "name": "Katex' Blood",
+    "value": "210"
+  },
+  {
+    "name": "Key to the Drowned Library",
+    "value": "330"
+  },
+  {
+    "name": "Kollos Shell",
+    "value": "420"
+  },
+  {
+    "name": "Kongra's Shoulderpad",
+    "value": "100"
+  },
+  {
+    "name": "Lamassu Hoof",
+    "value": "330"
+  },
+  {
+    "name": "Lamassu Horn",
+    "value": "240"
+  },
+  {
+    "name": "Lancer Beetle Shell",
+    "value": "80"
+  },
+  {
+    "name": "Lancet",
+    "value": "90"
+  },
+  {
+    "name": "Lavafungus Head",
+    "value": "900"
+  },
+  {
+    "name": "Lavafungus Ring",
+    "value": "390"
+  },
+  {
+    "name": "Lavaworm Jaws",
+    "value": "1100"
+  },
+  {
+    "name": "Lavaworm Spike Roots",
+    "value": "600"
+  },
+  {
+    "name": "Lavaworm Spikes",
+    "value": "750"
+  },
+  {
+    "name": "Legionnaire Flags",
+    "value": "500"
+  },
+  {
+    "name": "Liodile Fang",
+    "value": "480"
+  },
+  {
+    "name": "Lion Cloak Patch",
+    "value": "190"
+  },
+  {
+    "name": "Lion Crest",
+    "value": "270"
+  },
+  {
+    "name": "Lion Seal",
+    "value": "210"
+  },
+  {
+    "name": "Lion's Mane",
+    "value": "60"
+  },
+  {
+    "name": "Little Bowl of Myrrh",
+    "value": "500"
+  },
+  {
+    "name": "Lizard Essence",
+    "value": "300"
+  },
+  {
+    "name": "Lizard Heart",
+    "value": "530"
+  },
+  {
+    "name": "Lizard Leather",
+    "value": "150"
+  },
+  {
+    "name": "Lizard Scale",
+    "value": "120"
+  },
+  {
+    "name": "Lizard Tail",
+    "value": "95"
+  },
+  {
+    "name": "Longing Eyes",
+    "value": "8000"
+  },
+  {
+    "name": "Lost Basher's Spike",
+    "value": "280"
+  },
+  {
+    "name": "Lost Bracers",
+    "value": "140"
+  },
+  {
+    "name": "Lost Husher's Staff",
+    "value": "250"
+  },
+  {
+    "name": "Lost Soul (Item)",
+    "value": "120"
+  },
+  {
+    "name": "Luminescent Crystal Pickaxe",
+    "value": "50"
+  },
+  {
+    "name": "Luminous Orb",
+    "value": "1000"
+  },
+  {
+    "name": "Lump of Dirt",
+    "value": "10"
+  },
+  {
+    "name": "Lump of Earth",
+    "value": "130"
+  },
+  {
+    "name": "Mad Froth",
+    "value": "80"
+  },
+  {
+    "name": "Magic Sulphur",
+    "value": "8000"
+  },
+  {
+    "name": "Makara Fin",
+    "value": "350"
+  },
+  {
+    "name": "Makara Tongue",
+    "value": "320"
+  },
+  {
+    "name": "Malice's Horn",
+    "value": "620000"
+  },
+  {
+    "name": "Malice's Spine",
+    "value": "850000"
+  },
+  {
+    "name": "Malofur's Lunchbox",
+    "value": "240000"
+  },
+  {
+    "name": "Mammoth Tusk",
+    "value": "100"
+  },
+  {
+    "name": "Mantassin Tail",
+    "value": "280"
+  },
+  {
+    "name": "Manticore Ear",
+    "value": "310"
+  },
+  {
+    "name": "Manticore Tail",
+    "value": "220"
+  },
+  {
+    "name": "Marsh Stalker Beak",
+    "value": "65"
+  },
+  {
+    "name": "Marsh Stalker Feather",
+    "value": "50"
+  },
+  {
+    "name": "Maxxenius Head",
+    "value": "500000"
+  },
+  {
+    "name": "Meat Hammer",
+    "value": "60"
+  },
+  {
+    "name": "Medal of Valiance",
+    "value": "410000"
+  },
+  {
+    "name": "Mega Dragon Heart",
+    "value": "1100"
+  },
+  {
+    "name": "Megalomania's Essence",
+    "value": "1900000"
+  },
+  {
+    "name": "Megalomania's Skull",
+    "value": "1500000"
+  },
+  {
+    "name": "Milk Churn",
+    "value": "100"
+  },
+  {
+    "name": "Minotaur Horn",
+    "value": "75"
+  },
+  {
+    "name": "Minotaur Leather",
+    "value": "80"
+  },
+  {
+    "name": "Miraculum",
+    "value": "60"
+  },
+  {
+    "name": "Molten Dragon Essence",
+    "value": "840"
+  },
+  {
+    "name": "Moon Compass",
+    "value": "5000"
+  },
+  {
+    "name": "Morbid Tapestry",
+    "value": "30000"
+  },
+  {
+    "name": "Morshabaal's Brain",
+    "value": "5000000"
+  },
+  {
+    "name": "Mould Heart",
+    "value": "2100"
+  },
+  {
+    "name": "Mould Robe",
+    "value": "1200"
+  },
+  {
+    "name": "Mouldy Powder",
+    "value": "200"
+  },
+  {
+    "name": "Mr. Punish's Handcuffs",
+    "value": "50000"
+  },
+  {
+    "name": "Murcion's Mycelium",
+    "value": "950000"
+  },
+  {
+    "name": "Mutated Bat Ear",
+    "value": "420"
+  },
+  {
+    "name": "Mutated Flesh",
+    "value": "50"
+  },
+  {
+    "name": "Mutated Rat Tail",
+    "value": "150"
+  },
+  {
+    "name": "Mystical Hourglass",
+    "value": "700"
+  },
+  {
+    "name": "Naga Archer Scales",
+    "value": "340"
+  },
+  {
+    "name": "Naga Armring",
+    "value": "390"
+  },
+  {
+    "name": "Naga Earring",
+    "value": "380"
+  },
+  {
+    "name": "Naga Warrior Scales",
+    "value": "340"
+  },
+  {
+    "name": "Necromantic Robe",
+    "value": "250"
+  },
+  {
+    "name": "Nettle Blossom",
+    "value": "75"
+  },
+  {
+    "name": "Nettle Spit",
+    "value": "25"
+  },
+  {
+    "name": "Nimmersatt's Seal",
+    "value": "520"
+  },
+  {
+    "name": "Noble Amulet",
+    "value": "430000"
+  },
+  {
+    "name": "Noble Cape",
+    "value": "425000"
+  },
+  {
+    "name": "Noble Turban",
+    "value": "430"
+  },
+  {
+    "name": "Norcferatu Talisman",
+    "value": "670"
+  },
+  {
+    "name": "Nose Ring",
+    "value": "2000"
+  },
+  {
+    "name": "Odd Organ",
+    "value": "410"
+  },
+  {
+    "name": "Ogre Ear Stud",
+    "value": "180"
+  },
+  {
+    "name": "Ogre Nose Ring",
+    "value": "210"
+  },
+  {
+    "name": "Old Girtablilu Carapace",
+    "value": "570"
+  },
+  {
+    "name": "Old Royal Diary",
+    "value": "220000"
+  },
+  {
+    "name": "Orc Leather",
+    "value": "30"
+  },
+  {
+    "name": "Orc Tooth",
+    "value": "150"
+  },
+  {
+    "name": "Orcish Toothbrush",
+    "value": "750"
+  },
+  {
+    "name": "Orcish Gear",
+    "value": "85"
+  },
+  {
+    "name": "Pair of Hellflayer Horns",
+    "value": "1300"
+  },
+  {
+    "name": "Pair of Old Bracers",
+    "value": "500"
+  },
+  {
+    "name": "Pale Worm's Scalp",
+    "value": "489000"
+  },
+  {
+    "name": "Paper Boat",
+    "value": "800"
+  },
+  {
+    "name": "Paper Plane",
+    "value": "480"
+  },
+  {
+    "name": "Parder Fur",
+    "value": "150"
+  },
+  {
+    "name": "Parder Tooth",
+    "value": "150"
+  },
+  {
+    "name": "Patch of Fine Cloth",
+    "value": "1350"
+  },
+  {
+    "name": "Peacock Feather Fan",
+    "value": "350"
+  },
+  {
+    "name": "Pelvis Bone",
+    "value": "30"
+  },
+  {
+    "name": "Perfect Behemoth Fang",
+    "value": "250"
+  },
+  {
+    "name": "Petrified Scream",
+    "value": "250"
+  },
+  {
+    "name": "Phantasmal Hair",
+    "value": "500"
+  },
+  {
+    "name": "Piece of Archer Armor",
+    "value": "20"
+  },
+  {
+    "name": "Piece of Crocodile Leather",
+    "value": "15"
+  },
+  {
+    "name": "Piece of Dead Brain",
+    "value": "420"
+  },
+  {
+    "name": "Piece of Massacre's Shell",
+    "value": "50000"
+  },
+  {
+    "name": "Piece of Scarab Shell",
+    "value": "45"
+  },
+  {
+    "name": "Piece of Swampling Wood",
+    "value": "30"
+  },
+  {
+    "name": "Piece of Warrior Armor",
+    "value": "50"
+  },
+  {
+    "name": "Piece of Frozen Night",
+    "value": "680"
+  },
+  {
+    "name": "Pieces of Magic Chalk",
+    "value": "210"
+  },
+  {
+    "name": "Pig Foot",
+    "value": "10"
+  },
+  {
+    "name": "Pile of Grave Earth",
+    "value": "25"
+  },
+  {
+    "name": "Pirat's Tail",
+    "value": "180"
+  },
+  {
+    "name": "Pirate Coin",
+    "value": "110"
+  },
+  {
+    "name": "Plagueroot Offshoot",
+    "value": "280000"
+  },
+  {
+    "name": "Plasma Pearls",
+    "value": "250"
+  },
+  {
+    "name": "Plasmatic Lightning",
+    "value": "270"
+  },
+  {
+    "name": "Poison Gland",
+    "value": "210"
+  },
+  {
+    "name": "Poison Spider Shell",
+    "value": "10"
+  },
+  {
+    "name": "Poisonous Slime",
+    "value": "50"
+  },
+  {
+    "name": "Polar Bear Paw",
+    "value": "30"
+  },
+  {
+    "name": "Pool of Chitinous Glue",
+    "value": "480"
+  },
+  {
+    "name": "Pot of Orcish Warpaint",
+    "value": "1150"
+  },
+  {
+    "name": "Porcelain Mask",
+    "value": "2000"
+  },
+  {
+    "name": "Powder Herb",
+    "value": "10"
+  },
+  {
+    "name": "Pressed Flower",
+    "value": "570"
+  },
+  {
+    "name": "Pristine Worm Head",
+    "value": "15000"
+  },
+  {
+    "name": "Protective Charm",
+    "value": "60"
+  },
+  {
+    "name": "Purified Soul (Item)",
+    "value": "260"
+  },
+  {
+    "name": "Purple Robe",
+    "value": "110"
+  },
+  {
+    "name": "Putrefactive Figurine",
+    "value": "3200000"
+  },
+  {
+    "name": "Quara Bone",
+    "value": "500"
+  },
+  {
+    "name": "Quara Eye",
+    "value": "350"
+  },
+  {
+    "name": "Quara Pincers",
+    "value": "410"
+  },
+  {
+    "name": "Quara Tentacle",
+    "value": "140"
+  },
+  {
+    "name": "Quill",
+    "value": "1100"
+  },
+  {
+    "name": "Rare Earth",
+    "value": "80"
+  },
+  {
+    "name": "Ratmiral's Hat",
+    "value": "150000"
+  },
+  {
+    "name": "Ravenous Circlet",
+    "value": "220000"
+  },
+  {
+    "name": "Red Dragon Leather",
+    "value": "200"
+  },
+  {
+    "name": "Red Dragon Scale",
+    "value": "200"
+  },
+  {
+    "name": "Red Goanna Scale",
+    "value": "270"
+  },
+  {
+    "name": "Red Hair Dye",
+    "value": "40"
+  },
+  {
+    "name": "Red Piece of Cloth",
+    "value": "300"
+  },
+  {
+    "name": "Rhindeer Antlers",
+    "value": "68"
+  },
+  {
+    "name": "Rhino Hide",
+    "value": "175"
+  },
+  {
+    "name": "Rhino Horn",
+    "value": "265"
+  },
+  {
+    "name": "Rhino Horn Carving",
+    "value": "300"
+  },
+  {
+    "name": "Ritual Bone Knife",
+    "value": "820"
+  },
+  {
+    "name": "Ritual Tooth",
+    "value": "135"
+  },
+  {
+    "name": "Rogue Naga Scales",
+    "value": "570"
+  },
+  {
+    "name": "Rod (Bony Sea Devil)",
+    "value": "2200"
+  },
+  {
+    "name": "Roots",
+    "value": "1200"
+  },
+  {
+    "name": "Rope Belt",
+    "value": "66"
+  },
+  {
+    "name": "Rorc Egg",
+    "value": "120"
+  },
+  {
+    "name": "Rorc Feather",
+    "value": "70"
+  },
+  {
+    "name": "Rotten Feather",
+    "value": "120"
+  },
+  {
+    "name": "Rotten Heart",
+    "value": "74000"
+  },
+  {
+    "name": "Rotten Piece of Cloth",
+    "value": "30"
+  },
+  {
+    "name": "Rotten Roots",
+    "value": "3800"
+  },
+  {
+    "name": "Rotten Vermin Ichor",
+    "value": "4500"
+  },
+  {
+    "name": "Sabretooth (Item)",
+    "value": "400"
+  },
+  {
+    "name": "Safety Pin",
+    "value": "120"
+  },
+  {
+    "name": "Sample of Monster Blood",
+    "value": "250"
+  },
+  {
+    "name": "Sandcrawler Shell",
+    "value": "20"
+  },
+  {
+    "name": "Scale of Corruption",
+    "value": "680"
+  },
+  {
+    "name": "Scale of Gelidrazah",
+    "value": "10000"
+  },
+  {
+    "name": "Scarab Pincers",
+    "value": "280"
+  },
+  {
+    "name": "Scorpion Charm",
+    "value": "620"
+  },
+  {
+    "name": "Scorpion Tail",
+    "value": "25"
+  },
+  {
+    "name": "Scroll of Heroic Deeds",
+    "value": "230"
+  },
+  {
+    "name": "Scythe Leg",
+    "value": "450"
+  },
+  {
+    "name": "Sea Horse Figurine",
+    "value": "42000"
+  },
+  {
+    "name": "Sea Serpent Scale",
+    "value": "520"
+  },
+  {
+    "name": "Seeds",
+    "value": "150"
+  },
+  {
+    "name": "Sealing Wax",
+    "value": "620"
+  },
+  {
+    "name": "Shaggy Tail",
+    "value": "25"
+  },
+  {
+    "name": "Shamanic Hood",
+    "value": "45"
+  },
+  {
+    "name": "Shamanic Talisman",
+    "value": "200"
+  },
+  {
+    "name": "Shark Fins",
+    "value": "250"
+  },
+  {
+    "name": "Shimmering Beetles",
+    "value": "150"
+  },
+  {
+    "name": "Sight of Surrender's Eye",
+    "value": "3000"
+  },
+  {
+    "name": "Signet Ring (Valioso)",
+    "value": "480000"
+  },
+  {
+    "name": "Silencer Claws",
+    "value": "390"
+  },
+  {
+    "name": "Silencer Resonating Chamber",
+    "value": "600"
+  },
+  {
+    "name": "Silken Bookmark",
+    "value": "1300"
+  },
+  {
+    "name": "Silky Fur",
+    "value": "35"
+  },
+  {
+    "name": "Silver Hand Mirror",
+    "value": "10000"
+  },
+  {
+    "name": "Sineater Wing",
+    "value": "2100"
+  },
+  {
+    "name": "Single Human Eye",
+    "value": "1000"
+  },
+  {
+    "name": "Skeleton Decoration",
+    "value": "3000"
+  },
+  {
+    "name": "Skull Belt",
+    "value": "80"
+  },
+  {
+    "name": "Skull Fetish",
+    "value": "250"
+  },
+  {
+    "name": "Skull Shatterer",
+    "value": "170"
+  },
+  {
+    "name": "Skunk Tail",
+    "value": "50"
+  },
+  {
+    "name": "Slimy Leg",
+    "value": "4500"
+  },
+  {
+    "name": "Small Energy Ball",
+    "value": "250"
+  },
+  {
+    "name": "Small Flask of Eyedrops",
+    "value": "95"
+  },
+  {
+    "name": "Small Notebook",
+    "value": "480"
+  },
+  {
+    "name": "Small Oil Lamp",
+    "value": "150"
+  },
+  {
+    "name": "Small Pitchfork",
+    "value": "70"
+  },
+  {
+    "name": "Small Treasure Chest",
+    "value": "500"
+  },
+  {
+    "name": "Small Tropical Fish",
+    "value": "380"
+  },
+  {
+    "name": "Snake Skin",
+    "value": "400"
+  },
+  {
+    "name": "Sniper Gloves",
+    "value": "2000"
+  },
+  {
+    "name": "Solid Rage",
+    "value": "310"
+  },
+  {
+    "name": "Some Grimeleech Wings",
+    "value": "1200"
+  },
+  {
+    "name": "Soul Stone",
+    "value": "6000"
+  },
+  {
+    "name": "Spark Sphere",
+    "value": "350"
+  },
+  {
+    "name": "Sparkion Claw",
+    "value": "290"
+  },
+  {
+    "name": "Sparkion Legs",
+    "value": "310"
+  },
+  {
+    "name": "Sparkion Stings",
+    "value": "280"
+  },
+  {
+    "name": "Sparkion Tail",
+    "value": "300"
+  },
+  {
+    "name": "Spectral Gold Nugget",
+    "value": "500"
+  },
+  {
+    "name": "Spectral Silver Nugget",
+    "value": "250"
+  },
+  {
+    "name": "Spellreaper Staff Totem",
+    "value": "3100"
+  },
+  {
+    "name": "Spellsinger's Seal",
+    "value": "280"
+  },
+  {
+    "name": "Sphinx Feather",
+    "value": "470"
+  },
+  {
+    "name": "Sphinx Tiara",
+    "value": "360"
+  },
+  {
+    "name": "Spider Fangs",
+    "value": "10"
+  },
+  {
+    "name": "Spider Silk",
+    "value": "100"
+  },
+  {
+    "name": "Spidris Mandible",
+    "value": "450"
+  },
+  {
+    "name": "Spiked Iron Ball",
+    "value": "100"
+  },
+  {
+    "name": "Spiked Bracers",
+    "value": "1360"
+  },
+  {
+    "name": "Spiked Gorget",
+    "value": "850"
+  },
+  {
+    "name": "Spirit Container (Fighting Spirit)",
+    "value": "40000"
+  },
+  {
+    "name": "Spite's Spirit",
+    "value": "840000"
+  },
+  {
+    "name": "Spitter Nose",
+    "value": "340"
+  },
+  {
+    "name": "Splintered Mitmah Gem",
+    "value": "225000"
+  },
+  {
+    "name": "Spooky Blue Eye",
+    "value": "95"
+  },
+  {
+    "name": "Srezz' Eye",
+    "value": "300"
+  },
+  {
+    "name": "Staff Piece",
+    "value": "560"
+  },
+  {
+    "name": "Star Herb",
+    "value": "15"
+  },
+  {
+    "name": "Star Ink",
+    "value": "1250"
+  },
+  {
+    "name": "Stone Herb",
+    "value": "20"
+  },
+  {
+    "name": "Stone Wing",
+    "value": "120"
+  },
+  {
+    "name": "Stonerefiner's Skull",
+    "value": "100"
+  },
+  {
+    "name": "Strand of Medusa Hair",
+    "value": "600"
+  },
+  {
+    "name": "Strange Proto Matter",
+    "value": "300"
+  },
+  {
+    "name": "Strange Substance",
+    "value": "810"
+  },
+  {
+    "name": "Strange Symbol",
+    "value": "200"
+  },
+  {
+    "name": "Streaked Devourer Eyes",
+    "value": "500"
+  },
+  {
+    "name": "Streaked Devourer Legs",
+    "value": "600"
+  },
+  {
+    "name": "Streaked Devourer Maw",
+    "value": "400"
+  },
+  {
+    "name": "Striped Fur",
+    "value": "50"
+  },
+  {
+    "name": "Swamp Grass",
+    "value": "20"
+  },
+  {
+    "name": "Swampling Moss",
+    "value": "20"
+  },
+  {
+    "name": "Swarmer Antenna",
+    "value": "130"
+  },
+  {
+    "name": "Tail of Corruption",
+    "value": "240"
+  },
+  {
+    "name": "Tarantula Egg",
+    "value": "80"
+  },
+  {
+    "name": "Tarnished Rhino Figurine",
+    "value": "320"
+  },
+  {
+    "name": "Tattered Piece of Robe",
+    "value": "120"
+  },
+  {
+    "name": "Telescope Eye",
+    "value": "1600"
+  },
+  {
+    "name": "Tentacle of Tentugly",
+    "value": "27000"
+  },
+  {
+    "name": "Tentacle Piece",
+    "value": "5000"
+  },
+  {
+    "name": "Tentugly's Eye",
+    "value": "52000"
+  },
+  {
+    "name": "Tentugly's Jaws",
+    "value": "80000"
+  },
+  {
+    "name": "Terramite Eggs",
+    "value": "50"
+  },
+  {
+    "name": "Terramite Legs",
+    "value": "60"
+  },
+  {
+    "name": "Terramite Shell",
+    "value": "170"
+  },
+  {
+    "name": "Terrorbird Beak",
+    "value": "95"
+  },
+  {
+    "name": "The Handmaiden's Protector",
+    "value": "50000"
+  },
+  {
+    "name": "The Imperor's Trident",
+    "value": "50000"
+  },
+  {
+    "name": "The Plasmother's Remains",
+    "value": "50000"
+  },
+  {
+    "name": "Thick Fur",
+    "value": "150"
+  },
+  {
+    "name": "Thorn",
+    "value": "100"
+  },
+  {
+    "name": "Tiny Bat Coffin",
+    "value": "3650"
+  },
+  {
+    "name": "Torn Page",
+    "value": "340"
+  },
+  {
+    "name": "Token of Love",
+    "value": "440000"
+  },
+  {
+    "name": "Tooth File",
+    "value": "60"
+  },
+  {
+    "name": "Tooth of Tazhadur",
+    "value": "10000"
+  },
+  {
+    "name": "Torn Shirt",
+    "value": "250"
+  },
+  {
+    "name": "Trapped Bad Dream Monster",
+    "value": "900"
+  },
+  {
+    "name": "Tremendous Tyrant Head",
+    "value": "930"
+  },
+  {
+    "name": "Tremendous Tyrant Shell",
+    "value": "740"
+  },
+  {
+    "name": "Troll Green",
+    "value": "25"
+  },
+  {
+    "name": "Trollroot",
+    "value": "50"
+  },
+  {
+    "name": "Tunnel Tyrant Head",
+    "value": "500"
+  },
+  {
+    "name": "Tunnel Tyrant Shell",
+    "value": "700"
+  },
+  {
+    "name": "Turtle Shell",
+    "value": "90"
+  },
+  {
+    "name": "Tusk",
+    "value": "100"
+  },
+  {
+    "name": "Two-Headed Turtle Heads",
+    "value": "460"
+  },
+  {
+    "name": "Undead Heart",
+    "value": "200"
+  },
+  {
+    "name": "Unholy Bone",
+    "value": "480"
+  },
+  {
+    "name": "Urmahlullu's Mane",
+    "value": "490000"
+  },
+  {
+    "name": "Urmahlullu's Paw",
+    "value": "245000"
+  },
+  {
+    "name": "Urmahlullu's Tail",
+    "value": "210000"
+  },
+  {
+    "name": "Utua's Poison",
+    "value": "230"
+  },
+  {
+    "name": "Vampire Dust",
+    "value": "100"
+  },
+  {
+    "name": "Vampire Teeth",
+    "value": "275"
+  },
+  {
+    "name": "Vampire's Cape Chain",
+    "value": "150"
+  },
+  {
+    "name": "Varnished Diremaw Brainpan",
+    "value": "750"
+  },
+  {
+    "name": "Varnished Diremaw Legs",
+    "value": "670"
+  },
+  {
+    "name": "Veal",
+    "value": "40"
+  },
+  {
+    "name": "Vemiath's Infused Basalt",
+    "value": "1000000"
+  },
+  {
+    "name": "Venison",
+    "value": "55"
+  },
+  {
+    "name": "Vexclaw Talon",
+    "value": "1100"
+  },
+  {
+    "name": "Vial of Hatred",
+    "value": "737000"
+  },
+  {
+    "name": "Vibrant Heart",
+    "value": "2100"
+  },
+  {
+    "name": "Vibrant Robe",
+    "value": "1200"
+  },
+  {
+    "name": "Violet Glass Plate",
+    "value": "2150"
+  },
+  {
+    "name": "Volatile Proto Matter",
+    "value": "300"
+  },
+  {
+    "name": "Wardragon Claw",
+    "value": "550"
+  },
+  {
+    "name": "Wardragon Tooth",
+    "value": "730"
+  },
+  {
+    "name": "Warmaster's Wristguards",
+    "value": "200"
+  },
+  {
+    "name": "Warwolf Fur",
+    "value": "30"
+  },
+  {
+    "name": "Waspoid Claw",
+    "value": "320"
+  },
+  {
+    "name": "Waspoid Wing",
+    "value": "190"
+  },
+  {
+    "name": "Weaver's Wandtip",
+    "value": "250"
+  },
+  {
+    "name": "Werebadger Claws",
+    "value": "160"
+  },
+  {
+    "name": "Werebadger Skull",
+    "value": "185"
+  },
+  {
+    "name": "Werebear Fur",
+    "value": "185"
+  },
+  {
+    "name": "Werebear Skull",
+    "value": "195"
+  },
+  {
+    "name": "Wereboar Hooves",
+    "value": "175"
+  },
+  {
+    "name": "Wereboar Tusk",
+    "value": "165"
+  },
+  {
+    "name": "Werecrocodile Tongue",
+    "value": "570"
+  },
+  {
+    "name": "Werefox Tail",
+    "value": "200"
   },
   {
     "name": "Werehyaena Nose",
-    "value": 220
+    "value": "220"
   },
   {
-    "name": "Life Preserver",
-    "value": 300
+    "name": "Werehyaena Talisman",
+    "value": "350"
   },
   {
-    "name": "Wooden Spellbook",
-    "value": 12000
+    "name": "Werepanther Claw",
+    "value": "280"
   },
   {
-    "name": "Brown Crystal",
-    "value": 400
+    "name": "Weretiger Tooth",
+    "value": "490"
   },
   {
-    "name": "Focus Cape",
-    "value": 6000
+    "name": "Werewolf Fang",
+    "value": "180"
   },
   {
-    "name": "Fur Armor ",
-    "value": 5000
+    "name": "Werewolf Fur",
+    "value": "380"
   },
   {
-    "name": "Golden Sickle",
-    "value": 1000
+    "name": "White Piece of Cloth",
+    "value": "100"
   },
   {
-    "name": "Two Handed Sword",
-    "value": 450
+    "name": "Widow's Mandibles",
+    "value": "110"
   },
   {
-    "name": "Wand of Inferno",
-    "value": 3000
+    "name": "Wild Flowers",
+    "value": "120"
+  },
+  {
+    "name": "Wimp Tooth Chain",
+    "value": "120"
+  },
+  {
+    "name": "Winged Tail",
+    "value": "800"
+  },
+  {
+    "name": "Winter Wolf Fur",
+    "value": "20"
+  },
+  {
+    "name": "Witch Broom",
+    "value": "60"
+  },
+  {
+    "name": "Withered Pauldrons",
+    "value": "850"
+  },
+  {
+    "name": "Withered Scalp",
+    "value": "900"
+  },
+  {
+    "name": "Wolf Paw",
+    "value": "70"
+  },
+  {
+    "name": "Wood",
+    "value": "5"
+  },
+  {
+    "name": "Wool",
+    "value": "15"
+  },
+  {
+    "name": "Worm Sponge",
+    "value": "4200"
+  },
+  {
+    "name": "Writhing Brain",
+    "value": "370000"
+  },
+  {
+    "name": "Writhing Heart",
+    "value": "185000"
+  },
+  {
+    "name": "Wyrm Scale",
+    "value": "400"
+  },
+  {
+    "name": "Wyvern Talisman",
+    "value": "265"
+  },
+  {
+    "name": "Yapunac Dagger",
+    "value": "240"
+  },
+  {
+    "name": "Yellow Piece of Cloth",
+    "value": "150"
+  },
+  {
+    "name": "Yielowax",
+    "value": "600"
+  },
+  {
+    "name": "Yirkas' Egg",
+    "value": "280"
+  },
+  {
+    "name": "Young Lich Worm",
+    "value": "25000"
+  },
+  {
+    "name": "Zaogun Flag",
+    "value": "600"
+  },
+  {
+    "name": "Zaogun Shoulderplates",
+    "value": "150"
+  },
+  {
+    "name": "Ancient Coin",
+    "value": "350"
+  },
+  {
+    "name": "Black Pearl",
+    "value": "280"
+  },
+  {
+    "name": "Blue Crystal Shard",
+    "value": "1500"
+  },
+  {
+    "name": "Blue Crystal Splinter",
+    "value": "400"
+  },
+  {
+    "name": "Brown Crystal Splinter",
+    "value": "400"
+  },
+  {
+    "name": "Coral Brooch",
+    "value": "750"
+  },
+  {
+    "name": "Crunor Idol",
+    "value": "30000"
+  },
+  {
+    "name": "Cyan Crystal Fragment",
+    "value": "800"
+  },
+  {
+    "name": "Dragon Figurine",
+    "value": "45000"
+  },
+  {
+    "name": "Gemmed Figurine",
+    "value": "3500"
+  },
+  {
+    "name": "Giant Emerald",
+    "value": "90000"
+  },
+  {
+    "name": "Giant Ruby",
+    "value": "70000"
+  },
+  {
+    "name": "Giant Sapphire",
+    "value": "50000"
+  },
+  {
+    "name": "Giant Shimmering Pearl",
+    "value": "3000"
+  },
+  {
+    "name": "Gold Ingot",
+    "value": "5000"
+  },
+  {
+    "name": "Gold Nugget",
+    "value": "850"
+  },
+  {
+    "name": "Green Crystal Fragment",
+    "value": "800"
+  },
+  {
+    "name": "Green Crystal Shard",
+    "value": "1500"
+  },
+  {
+    "name": "Green Crystal Splinter",
+    "value": "400"
   },
   {
     "name": "Onyx Chip",
-    "value": 500
+    "value": "500"
   },
   {
     "name": "Opal",
-    "value": 500
+    "value": "500"
   },
   {
-    "name": "Gearwheel Chain",
-    "value": 5000
+    "name": "Ornate Locket",
+    "value": "18000"
   },
   {
-    "name": "Ornate Crossbow",
-    "value": 12000
+    "name": "Prismatic Quartz",
+    "value": "450"
+  },
+  {
+    "name": "Rainbow Quartz",
+    "value": "500"
+  },
+  {
+    "name": "Red Crystal Fragment",
+    "value": "800"
+  },
+  {
+    "name": "Small Amethyst",
+    "value": "200"
+  },
+  {
+    "name": "Small Diamond",
+    "value": "300"
+  },
+  {
+    "name": "Small Emerald",
+    "value": "250"
+  },
+  {
+    "name": "Small Enchanted Amethyst",
+    "value": "200"
+  },
+  {
+    "name": "Small Enchanted Emerald",
+    "value": "250"
+  },
+  {
+    "name": "Small Enchanted Ruby",
+    "value": "250"
+  },
+  {
+    "name": "Small Enchanted Sapphire",
+    "value": "250"
+  },
+  {
+    "name": "Small Ruby",
+    "value": "250"
+  },
+  {
+    "name": "Small Sapphire",
+    "value": "250"
+  },
+  {
+    "name": "Small Topaz",
+    "value": "200"
+  },
+  {
+    "name": "Tiger Eye",
+    "value": "350"
+  },
+  {
+    "name": "Unicorn Figurine",
+    "value": "50000"
+  },
+  {
+    "name": "Violet Crystal Shard",
+    "value": "1500"
+  },
+  {
+    "name": "Watermelon Tourmaline (Fatia)",
+    "value": "30000"
+  },
+  {
+    "name": "Watermelon Tourmaline (Lapidada)",
+    "value": "230000"
+  },
+  {
+    "name": "Wedding Ring",
+    "value": "100"
+  },
+  {
+    "name": "White Pearl",
+    "value": "160"
+  },
+  {
+    "name": "Ankh",
+    "value": "100"
+  },
+  {
+    "name": "Dragon Necklace",
+    "value": "100"
+  },
+  {
+    "name": "Dwarven Ring",
+    "value": "100"
+  },
+  {
+    "name": "Energy Ring",
+    "value": "100"
+  },
+  {
+    "name": "Glacial Rod",
+    "value": "6500"
+  },
+  {
+    "name": "Hailstorm Rod",
+    "value": "3000"
+  },
+  {
+    "name": "Life Ring",
+    "value": "50"
+  },
+  {
+    "name": "Might Ring",
+    "value": "250"
+  },
+  {
+    "name": "Moonlight Rod",
+    "value": "200"
+  },
+  {
+    "name": "Muck Rod",
+    "value": "6000"
+  },
+  {
+    "name": "Mysterious Fetish",
+    "value": "50"
+  },
+  {
+    "name": "Necrotic Rod",
+    "value": "1000"
+  },
+  {
+    "name": "Northwind Rod",
+    "value": "1500"
+  },
+  {
+    "name": "Protection Amulet",
+    "value": "100"
+  },
+  {
+    "name": "Ring of Healing",
+    "value": "100"
+  },
+  {
+    "name": "Silver Amulet",
+    "value": "50"
+  },
+  {
+    "name": "Snakebite Rod",
+    "value": "100"
+  },
+  {
+    "name": "Springsprout Rod",
+    "value": "3600"
+  },
+  {
+    "name": "Strange Talisman",
+    "value": "30"
+  },
+  {
+    "name": "Terra Rod",
+    "value": "2000"
+  },
+  {
+    "name": "Time Ring",
+    "value": "100"
+  },
+  {
+    "name": "Underworld Rod",
+    "value": "4400"
+  },
+  {
+    "name": "Ancient Shield",
+    "value": "900"
+  },
+  {
+    "name": "Black Shield",
+    "value": "800"
+  },
+  {
+    "name": "Bonebreaker",
+    "value": "10000"
+  },
+  {
+    "name": "Dark Armor",
+    "value": "400"
+  },
+  {
+    "name": "Dark Helmet",
+    "value": "250"
+  },
+  {
+    "name": "Dragon Hammer",
+    "value": "2000"
+  },
+  {
+    "name": "Dreaded Cleaver",
+    "value": "15000"
+  },
+  {
+    "name": "Earth Knight Axe",
+    "value": "2000"
+  },
+  {
+    "name": "Energy Knight Axe",
+    "value": "2000"
+  },
+  {
+    "name": "Fiery Knight Axe",
+    "value": "2000"
+  },
+  {
+    "name": "Giant Sword",
+    "value": "17000"
+  },
+  {
+    "name": "Haunted Blade",
+    "value": "8000"
+  },
+  {
+    "name": "Icy Knight Axe",
+    "value": "2000"
+  },
+  {
+    "name": "Knight Armor",
+    "value": "5000"
+  },
+  {
+    "name": "Knight Axe",
+    "value": "2000"
+  },
+  {
+    "name": "Knight Legs",
+    "value": "5000"
+  },
+  {
+    "name": "Mystic Turban",
+    "value": "150"
+  },
+  {
+    "name": "Onyx Flail",
+    "value": "22000"
+  },
+  {
+    "name": "Ornamented Axe",
+    "value": "20000"
+  },
+  {
+    "name": "Poison Dagger",
+    "value": "50"
+  },
+  {
+    "name": "Scimitar",
+    "value": "150"
+  },
+  {
+    "name": "Serpent Sword",
+    "value": "900"
+  },
+  {
+    "name": "Skull Staff",
+    "value": "6000"
+  },
+  {
+    "name": "Strange Helmet",
+    "value": "500"
+  },
+  {
+    "name": "Titan Axe",
+    "value": "4000"
+  },
+  {
+    "name": "Tower Shield",
+    "value": "8000"
+  },
+  {
+    "name": "Vampire Shield",
+    "value": "15000"
+  },
+  {
+    "name": "Warrior Helmet",
+    "value": "5000"
+  },
+  {
+    "name": "Angelic Axe",
+    "value": "5000"
+  },
+  {
+    "name": "Blue Robe",
+    "value": "10000"
+  },
+  {
+    "name": "Bonelord Shield",
+    "value": "1200"
+  },
+  {
+    "name": "Boots of Haste",
+    "value": "30000"
+  },
+  {
+    "name": "Broadsword",
+    "value": "500"
+  },
+  {
+    "name": "Butcher's Axe",
+    "value": "18000"
+  },
+  {
+    "name": "Crown Armor",
+    "value": "12000"
+  },
+  {
+    "name": "Crown Helmet",
+    "value": "2500"
+  },
+  {
+    "name": "Crown Legs",
+    "value": "12000"
+  },
+  {
+    "name": "Crown Shield",
+    "value": "8000"
+  },
+  {
+    "name": "Crusader Helmet",
+    "value": "6000"
+  },
+  {
+    "name": "Dragon Lance",
+    "value": "9000"
+  },
+  {
+    "name": "Dragon Shield",
+    "value": "4000"
+  },
+  {
+    "name": "Earth Spike Sword",
+    "value": "1000"
+  },
+  {
+    "name": "Earth War Hammer",
+    "value": "1200"
+  },
+  {
+    "name": "Energy Spike Sword",
+    "value": "1000"
+  },
+  {
+    "name": "Energy War Hammer",
+    "value": "1200"
+  },
+  {
+    "name": "Fiery Spike Sword",
+    "value": "1000"
+  },
+  {
+    "name": "Fiery War Hammer",
+    "value": "1200"
+  },
+  {
+    "name": "Fire Axe",
+    "value": "8000"
+  },
+  {
+    "name": "Fire Sword",
+    "value": "4000"
+  },
+  {
+    "name": "Glorious Axe",
+    "value": "3000"
+  },
+  {
+    "name": "Guardian Shield",
+    "value": "2000"
+  },
+  {
+    "name": "Ice Rapier",
+    "value": "1000"
+  },
+  {
+    "name": "Icy Spike Sword",
+    "value": "1000"
+  },
+  {
+    "name": "Icy War Hammer",
+    "value": "1200"
+  },
+  {
+    "name": "Noble Armor",
+    "value": "900"
+  },
+  {
+    "name": "Obsidian Lance",
+    "value": "500"
+  },
+  {
+    "name": "Phoenix Shield",
+    "value": "16000"
+  },
+  {
+    "name": "Queen's Sceptre",
+    "value": "20000"
+  },
+  {
+    "name": "Royal Helmet",
+    "value": "30000"
+  },
+  {
+    "name": "Shadow Sceptre",
+    "value": "10000"
+  },
+  {
+    "name": "Spike Sword",
+    "value": "1000"
+  },
+  {
+    "name": "Thaian Sword",
+    "value": "16000"
+  },
+  {
+    "name": "War Hammer",
+    "value": "1200"
+  },
+  {
+    "name": "Axe Ring",
+    "value": "100"
+  },
+  {
+    "name": "Bronze Amulet",
+    "value": "50"
+  },
+  {
+    "name": "Club Ring",
+    "value": "100"
+  },
+  {
+    "name": "Elven Amulet",
+    "value": "100"
+  },
+  {
+    "name": "Garlic Necklace",
+    "value": "50"
+  },
+  {
+    "name": "Life Crystal",
+    "value": "50"
+  },
+  {
+    "name": "Magic Light Wand",
+    "value": "35"
+  },
+  {
+    "name": "Mind Stone",
+    "value": "100"
+  },
+  {
+    "name": "Orb",
+    "value": "750"
+  },
+  {
+    "name": "Power Ring",
+    "value": "50"
+  },
+  {
+    "name": "Stealth Ring",
+    "value": "200"
+  },
+  {
+    "name": "Stone Skin Amulet",
+    "value": "500"
+  },
+  {
+    "name": "Sword Ring",
+    "value": "100"
+  },
+  {
+    "name": "Wand of Cosmic Energy",
+    "value": "2000"
+  },
+  {
+    "name": "Wand of Decay",
+    "value": "1000"
+  },
+  {
+    "name": "Wand of Defiance",
+    "value": "6500"
+  },
+  {
+    "name": "Wand of Draconia",
+    "value": "1500"
+  },
+  {
+    "name": "Wand of Dragonbreath",
+    "value": "200"
+  },
+  {
+    "name": "Wand of Everblazing",
+    "value": "6000"
+  },
+  {
+    "name": "Wand of Inferno",
+    "value": "3000"
+  },
+  {
+    "name": "Wand of Starstorm",
+    "value": "3600"
+  },
+  {
+    "name": "Wand of Voodoo",
+    "value": "4400"
+  },
+  {
+    "name": "Wand of Vortex",
+    "value": "100"
+  },
+  {
+    "name": "Demonic Essence",
+    "value": "1000"
+  },
+  {
+    "name": "Red Gem",
+    "value": "1000"
+  },
+  {
+    "name": "Yellow Gem",
+    "value": "1000"
+  },
+  {
+    "name": "Blue Gem",
+    "value": "5000"
+  },
+  {
+    "name": "Spellbook of Mind Control",
+    "value": "13000"
+  },
+  {
+    "name": "Orichalcum Pearl",
+    "value": "40"
+  },
+  {
+    "name": "Soul Orb",
+    "value": "25"
+  },
+  {
+    "name": "Spellweaver's Robe",
+    "value": "12000"
+  },
+  {
+    "name": "Drakinata",
+    "value": "10000"
+  },
+  {
+    "name": "Zaoan Legs",
+    "value": "14000"
+  },
+  {
+    "name": "Zaoan Armor",
+    "value": "14000"
+  },
+  {
+    "name": "Zaoan Shoes",
+    "value": "5000"
+  },
+  {
+    "name": "Tower Shield",
+    "value": "8000"
+  },
+  {
+    "name": "Zaoan Halberd",
+    "value": "500"
+  },
+  {
+    "name": "Berserk Potion",
+    "value": "500"
+  },
+  {
+    "name": "Lion Figurine",
+    "value": "10000"
+  },
+  {
+    "name": "Werehyaena Trophy",
+    "value": "12000"
+  },
+  {
+    "name": "Life Preserver",
+    "value": "300"
+  },
+  {
+    "name": "Jungle Moa Feather",
+    "value": "140"
+  },
+  {
+    "name": "Violet Gem",
+    "value": "10000"
+  },
+  {
+    "name": "Green Gem",
+    "value": "5000"
+  },
+  {
+    "name": "Wooden Spellbook",
+    "value": "12000"
+  },
+  {
+    "name": "Brown Crystal",
+    "value": "400"
+  },
+  {
+    "name": "Focus Cape",
+    "value": "6000"
+  },
+  {
+    "name": "Fur Armor ",
+    "value": "5000"
+  },
+  {
+    "name": "Golden Sickle",
+    "value": "1000"
+  },
+  {
+    "name": "Two Handed Sword",
+    "value": "450"
+  },
+  {
+    "name": "Wand of Inferno",
+    "value": "3000"
   },
   {
     "name": "calopteryx cape",
-    "value": 15000
+    "value": "15000"
   },
   {
     "name": "glooth amulet",
-    "value": 2000
+    "value": "2000"
+  },
+  {
+    "name": "Gearwheel Chain",
+    "value": "5000"
+  },
+  {
+    "name": "Ornate Crossbow",
+    "value": "12000"
   },
   {
     "name": "necklace of the deep",
-    "value": 3000
+    "value": "3000"
   },
   {
     "name": "werewolf amulet",
-    "value": 3000
-  },
-  {
-    "name": "anterior",
-    "value": 1
-  },
-  {
-    "name": "farm",
-    "value": 1
+    "value": "3000"
   }
 ]

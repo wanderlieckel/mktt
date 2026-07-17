@@ -6,6 +6,7 @@ let createOrderFilteredItems = [];
 let showOnlyActiveOrders = false;
 let selectedExecutionOrderId = null;
 let itemList = [];
+let itemobjects = [];
 
 
 function addOrder() {
@@ -55,10 +56,12 @@ closeBtn.addEventListener("click", () => {
 });
 
 async function getItemList() {
-    const itens = await window.backend.settings.getItemList();
-    console.log(itens)
-    itemList = itens
+    const response = await window.backend.settings.getItemList();
+    console.log(response)
+    itemList = response.itemlist
+    itemobjects = response.itemobjetcts
 }
+
 //functions to update profit summary
 async function updateProfitSummary() {
     const summaries = await window.backend.statistics.getTotalProfit();
@@ -287,7 +290,7 @@ function setupItemSearch() {
 
     input.addEventListener("keydown", (event) => {
 
-        if (event.key !== "Enter")
+        if (event.key !== "Enter" && event.key !== "Tab")
             return;
 
         if (filteredItems.length !== 1)
@@ -361,7 +364,10 @@ function setupCreateOrderItemSearch() {
     });
 
     input.addEventListener("keydown", event => {
-        if (event.key !== "Enter")
+        if (dropdown.style.display === "none") {
+            return;
+        }
+        if (event.key !== "Enter" && event.key !== "Tab")
             return;
 
         if (createOrderFilteredItems.length !== 1)
@@ -370,6 +376,7 @@ function setupCreateOrderItemSearch() {
         event.preventDefault();
 
         input.value = createOrderFilteredItems[0];
+        getItemData(createOrderFilteredItems[0]);
         dropdown.style.display = "none";
     });
 
@@ -378,6 +385,21 @@ function setupCreateOrderItemSearch() {
         updateCreateItemDropdown("");
     });
 }
+async function getItemData(itemName) {
+    let divitem = document.getElementById("itemVenal");
+    if (!itemName) {
+        divitem.innerText = "";
+    } else {
+        itemobjects.filter(item => {
+            if (item.name.toLowerCase() === itemName.toLowerCase()) {
+                divitem.innerText = "Valor 100%: " + item.value + " - Valor 80%: " + (item.value * 0.8).toFixed(0) + " - Valor 75%: " + (item.value * 0.75).toFixed(0) + " - Valor 50%: " + (item.value * 0.50).toFixed(0);
+            }
+        })
+    }
+
+}
+
+
 //Function to create an order from the form inputs
 async function createOrderFromForm() {
     const itemName = document.getElementById("itemName").value.trim();
@@ -403,6 +425,7 @@ async function createOrderFromForm() {
 
     await window.backend.orderHandler.createOrder(order, window.backend.orders);
 
+    getItemData();
     await loadOrders();
     await updateProfitSummary();
 
